@@ -18,6 +18,10 @@
 		788034171ACBC2FF0033CE24 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 7880340E1ACBC2FF0033CE24 /* NSObject+MJCoding.m */; };
 		788034181ACBC2FF0033CE24 /* NSObject+MJIvar.m in Sources */ = {isa = PBXBuildFile; fileRef = 788034101ACBC2FF0033CE24 /* NSObject+MJIvar.m */; };
 		788034191ACBC2FF0033CE24 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 788034121ACBC2FF0033CE24 /* NSObject+MJKeyValue.m */; };
+		788034231ACBC4580033CE24 /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7880341C1ACBC4580033CE24 /* TPKeyboardAvoidingCollectionView.m */; };
+		788034241ACBC4580033CE24 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7880341E1ACBC4580033CE24 /* TPKeyboardAvoidingScrollView.m */; };
+		788034251ACBC4580033CE24 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 788034201ACBC4580033CE24 /* TPKeyboardAvoidingTableView.m */; };
+		788034261ACBC4580033CE24 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 788034221ACBC4580033CE24 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
 		946809CA99D2343A7B2FA08D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF5847EBAD8CEA579F9F8073 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +54,14 @@
 		788034101ACBC2FF0033CE24 /* NSObject+MJIvar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJIvar.m"; sourceTree = "<group>"; };
 		788034111ACBC2FF0033CE24 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
 		788034121ACBC2FF0033CE24 /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		7880341B1ACBC4580033CE24 /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		7880341C1ACBC4580033CE24 /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		7880341D1ACBC4580033CE24 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		7880341E1ACBC4580033CE24 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		7880341F1ACBC4580033CE24 /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		788034201ACBC4580033CE24 /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		788034211ACBC4580033CE24 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		788034221ACBC4580033CE24 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
 		A6FB1DED2CF4A18419125958 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		AF5847EBAD8CEA579F9F8073 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0E97DDDCD0DA93D5757F59D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -182,6 +194,7 @@
 		786680AB1ACA53610082348B /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				7880341A1ACBC4580033CE24 /* KeyBoard */,
 				788034031ACBC2FF0033CE24 /* MJExtension */,
 			);
 			path = Vendor;
@@ -207,6 +220,21 @@
 				788034121ACBC2FF0033CE24 /* NSObject+MJKeyValue.m */,
 			);
 			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		7880341A1ACBC4580033CE24 /* KeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				7880341B1ACBC4580033CE24 /* TPKeyboardAvoidingCollectionView.h */,
+				7880341C1ACBC4580033CE24 /* TPKeyboardAvoidingCollectionView.m */,
+				7880341D1ACBC4580033CE24 /* TPKeyboardAvoidingScrollView.h */,
+				7880341E1ACBC4580033CE24 /* TPKeyboardAvoidingScrollView.m */,
+				7880341F1ACBC4580033CE24 /* TPKeyboardAvoidingTableView.h */,
+				788034201ACBC4580033CE24 /* TPKeyboardAvoidingTableView.m */,
+				788034211ACBC4580033CE24 /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				788034221ACBC4580033CE24 /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+			);
+			path = KeyBoard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -315,11 +343,15 @@
 				788034151ACBC2FF0033CE24 /* MJIvar.m in Sources */,
 				786680801ACA4CAC0082348B /* AppDelegate.m in Sources */,
 				786680A21ACA4E980082348B /* FirstViewController.m in Sources */,
+				788034261ACBC4580033CE24 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
 				788034131ACBC2FF0033CE24 /* MJConst.m in Sources */,
+				788034231ACBC4580033CE24 /* TPKeyboardAvoidingCollectionView.m in Sources */,
+				788034251ACBC4580033CE24 /* TPKeyboardAvoidingTableView.m in Sources */,
 				788034171ACBC2FF0033CE24 /* NSObject+MJCoding.m in Sources */,
 				788034161ACBC2FF0033CE24 /* MJType.m in Sources */,
 				788034141ACBC2FF0033CE24 /* MJFoundation.m in Sources */,
 				7866807D1ACA4CAC0082348B /* main.m in Sources */,
+				788034241ACBC4580033CE24 /* TPKeyboardAvoidingScrollView.m in Sources */,
 				788034191ACBC2FF0033CE24 /* NSObject+MJKeyValue.m in Sources */,
 				788034181ACBC2FF0033CE24 /* NSObject+MJIvar.m in Sources */,
 			);
