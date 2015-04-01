@@ -22,6 +22,14 @@
 		788034241ACBC4580033CE24 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7880341E1ACBC4580033CE24 /* TPKeyboardAvoidingScrollView.m */; };
 		788034251ACBC4580033CE24 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 788034201ACBC4580033CE24 /* TPKeyboardAvoidingTableView.m */; };
 		788034261ACBC4580033CE24 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 788034221ACBC4580033CE24 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		788034351ACBC4FC0033CE24 /* backButton_h.png in Resources */ = {isa = PBXBuildFile; fileRef = 788034281ACBC4FC0033CE24 /* backButton_h.png */; };
+		788034361ACBC4FC0033CE24 /* backButton_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 788034291ACBC4FC0033CE24 /* backButton_n.png */; };
+		788034371ACBC4FC0033CE24 /* edt_alarm_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 7880342A1ACBC4FC0033CE24 /* edt_alarm_selected.png */; };
+		788034381ACBC4FC0033CE24 /* LYAlbumItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7880342C1ACBC4FC0033CE24 /* LYAlbumItem.m */; };
+		788034391ACBC4FC0033CE24 /* LYImagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7880342E1ACBC4FC0033CE24 /* LYImagePickerViewController.m */; };
+		7880343A1ACBC4FC0033CE24 /* LYPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 788034301ACBC4FC0033CE24 /* LYPhotoCell.m */; };
+		7880343B1ACBC4FC0033CE24 /* LYPhotoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 788034321ACBC4FC0033CE24 /* LYPhotoItem.m */; };
+		7880343C1ACBC4FC0033CE24 /* LYPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 788034341ACBC4FC0033CE24 /* LYPhotosViewController.m */; };
 		946809CA99D2343A7B2FA08D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF5847EBAD8CEA579F9F8073 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +70,19 @@
 		788034201ACBC4580033CE24 /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
 		788034211ACBC4580033CE24 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
 		788034221ACBC4580033CE24 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		788034281ACBC4FC0033CE24 /* backButton_h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backButton_h.png; sourceTree = "<group>"; };
+		788034291ACBC4FC0033CE24 /* backButton_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backButton_n.png; sourceTree = "<group>"; };
+		7880342A1ACBC4FC0033CE24 /* edt_alarm_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = edt_alarm_selected.png; sourceTree = "<group>"; };
+		7880342B1ACBC4FC0033CE24 /* LYAlbumItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYAlbumItem.h; sourceTree = "<group>"; };
+		7880342C1ACBC4FC0033CE24 /* LYAlbumItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYAlbumItem.m; sourceTree = "<group>"; };
+		7880342D1ACBC4FC0033CE24 /* LYImagePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYImagePickerViewController.h; sourceTree = "<group>"; };
+		7880342E1ACBC4FC0033CE24 /* LYImagePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYImagePickerViewController.m; sourceTree = "<group>"; };
+		7880342F1ACBC4FC0033CE24 /* LYPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYPhotoCell.h; sourceTree = "<group>"; };
+		788034301ACBC4FC0033CE24 /* LYPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYPhotoCell.m; sourceTree = "<group>"; };
+		788034311ACBC4FC0033CE24 /* LYPhotoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYPhotoItem.h; sourceTree = "<group>"; };
+		788034321ACBC4FC0033CE24 /* LYPhotoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYPhotoItem.m; sourceTree = "<group>"; };
+		788034331ACBC4FC0033CE24 /* LYPhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYPhotosViewController.h; sourceTree = "<group>"; };
+		788034341ACBC4FC0033CE24 /* LYPhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYPhotosViewController.m; sourceTree = "<group>"; };
 		A6FB1DED2CF4A18419125958 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		AF5847EBAD8CEA579F9F8073 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0E97DDDCD0DA93D5757F59D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -194,6 +215,7 @@
 		786680AB1ACA53610082348B /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				788034271ACBC4FC0033CE24 /* Album */,
 				7880341A1ACBC4580033CE24 /* KeyBoard */,
 				788034031ACBC2FF0033CE24 /* MJExtension */,
 			);
@@ -235,6 +257,26 @@
 				788034221ACBC4580033CE24 /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
 			);
 			path = KeyBoard;
+			sourceTree = "<group>";
+		};
+		788034271ACBC4FC0033CE24 /* Album */ = {
+			isa = PBXGroup;
+			children = (
+				788034281ACBC4FC0033CE24 /* backButton_h.png */,
+				788034291ACBC4FC0033CE24 /* backButton_n.png */,
+				7880342A1ACBC4FC0033CE24 /* edt_alarm_selected.png */,
+				7880342B1ACBC4FC0033CE24 /* LYAlbumItem.h */,
+				7880342C1ACBC4FC0033CE24 /* LYAlbumItem.m */,
+				7880342D1ACBC4FC0033CE24 /* LYImagePickerViewController.h */,
+				7880342E1ACBC4FC0033CE24 /* LYImagePickerViewController.m */,
+				7880342F1ACBC4FC0033CE24 /* LYPhotoCell.h */,
+				788034301ACBC4FC0033CE24 /* LYPhotoCell.m */,
+				788034311ACBC4FC0033CE24 /* LYPhotoItem.h */,
+				788034321ACBC4FC0033CE24 /* LYPhotoItem.m */,
+				788034331ACBC4FC0033CE24 /* LYPhotosViewController.h */,
+				788034341ACBC4FC0033CE24 /* LYPhotosViewController.m */,
+			);
+			path = Album;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,6 +339,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				786680881ACA4CAC0082348B /* Images.xcassets in Resources */,
+				788034361ACBC4FC0033CE24 /* backButton_n.png in Resources */,
+				788034371ACBC4FC0033CE24 /* edt_alarm_selected.png in Resources */,
+				788034351ACBC4FC0033CE24 /* backButton_h.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,16 +389,21 @@
 				786680801ACA4CAC0082348B /* AppDelegate.m in Sources */,
 				786680A21ACA4E980082348B /* FirstViewController.m in Sources */,
 				788034261ACBC4580033CE24 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				7880343B1ACBC4FC0033CE24 /* LYPhotoItem.m in Sources */,
 				788034131ACBC2FF0033CE24 /* MJConst.m in Sources */,
 				788034231ACBC4580033CE24 /* TPKeyboardAvoidingCollectionView.m in Sources */,
 				788034251ACBC4580033CE24 /* TPKeyboardAvoidingTableView.m in Sources */,
 				788034171ACBC2FF0033CE24 /* NSObject+MJCoding.m in Sources */,
 				788034161ACBC2FF0033CE24 /* MJType.m in Sources */,
+				788034381ACBC4FC0033CE24 /* LYAlbumItem.m in Sources */,
 				788034141ACBC2FF0033CE24 /* MJFoundation.m in Sources */,
 				7866807D1ACA4CAC0082348B /* main.m in Sources */,
 				788034241ACBC4580033CE24 /* TPKeyboardAvoidingScrollView.m in Sources */,
+				7880343A1ACBC4FC0033CE24 /* LYPhotoCell.m in Sources */,
+				788034391ACBC4FC0033CE24 /* LYImagePickerViewController.m in Sources */,
 				788034191ACBC2FF0033CE24 /* NSObject+MJKeyValue.m in Sources */,
 				788034181ACBC2FF0033CE24 /* NSObject+MJIvar.m in Sources */,
+				7880343C1ACBC4FC0033CE24 /* LYPhotosViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
