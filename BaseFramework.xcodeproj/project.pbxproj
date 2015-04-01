@@ -9,22 +9,10 @@
 /* Begin PBXBuildFile section */
 		7866807D1ACA4CAC0082348B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7866807C1ACA4CAC0082348B /* main.m */; };
 		786680801ACA4CAC0082348B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7866807F1ACA4CAC0082348B /* AppDelegate.m */; };
-		786680831ACA4CAC0082348B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 786680821ACA4CAC0082348B /* ViewController.m */; };
-		786680861ACA4CAC0082348B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 786680841ACA4CAC0082348B /* Main.storyboard */; };
 		786680881ACA4CAC0082348B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 786680871ACA4CAC0082348B /* Images.xcassets */; };
-		7866808B1ACA4CAC0082348B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 786680891ACA4CAC0082348B /* LaunchScreen.xib */; };
-		786680971ACA4CAC0082348B /* BaseFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 786680961ACA4CAC0082348B /* BaseFrameworkTests.m */; };
+		786680A21ACA4E980082348B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 786680A11ACA4E980082348B /* FirstViewController.m */; };
+		946809CA99D2343A7B2FA08D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF5847EBAD8CEA579F9F8073 /* libPods.a */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		786680911ACA4CAC0082348B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7866806F1ACA4CAC0082348B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 786680761ACA4CAC0082348B;
-			remoteInfo = BaseFramework;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		786680771ACA4CAC0082348B /* BaseFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -32,14 +20,17 @@
 		7866807C1ACA4CAC0082348B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7866807E1ACA4CAC0082348B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7866807F1ACA4CAC0082348B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		786680811ACA4CAC0082348B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		786680821ACA4CAC0082348B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		786680851ACA4CAC0082348B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		786680871ACA4CAC0082348B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		7866808A1ACA4CAC0082348B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		786680901ACA4CAC0082348B /* BaseFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaseFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		786680951ACA4CAC0082348B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		786680961ACA4CAC0082348B /* BaseFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseFrameworkTests.m; sourceTree = "<group>"; };
+		786680A01ACA4E980082348B /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		786680A11ACA4E980082348B /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		786680A31ACA4FB20082348B /* BaseFramework.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseFramework.pch; sourceTree = "<group>"; };
+		786680A51ACA52510082348B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		786680B71ACAA3B90082348B /* BaseFrameworkTests copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "BaseFrameworkTests copy-Info.plist"; path = "/Users/etiantian/Desktop/BaseFramework/BaseFrameworkTests copy-Info.plist"; sourceTree = "<absolute>"; };
+		A6FB1DED2CF4A18419125958 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		AF5847EBAD8CEA579F9F8073 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0E97DDDCD0DA93D5757F59D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,25 +38,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7866808D1ACA4CAC0082348B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				946809CA99D2343A7B2FA08D /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C552EB35A4D62C47B6B06D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6FB1DED2CF4A18419125958 /* Pods.debug.xcconfig */,
+				E0E97DDDCD0DA93D5757F59D /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7866806E1ACA4CAC0082348B = {
 			isa = PBXGroup;
 			children = (
 				786680791ACA4CAC0082348B /* BaseFramework */,
 				786680931ACA4CAC0082348B /* BaseFrameworkTests */,
+				786680A41ACA522D0082348B /* Frameworks */,
 				786680781ACA4CAC0082348B /* Products */,
+				3C552EB35A4D62C47B6B06D7 /* Pods */,
+				786680B71ACAA3B90082348B /* BaseFrameworkTests copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,7 +70,6 @@
 			isa = PBXGroup;
 			children = (
 				786680771ACA4CAC0082348B /* BaseFramework.app */,
-				786680901ACA4CAC0082348B /* BaseFrameworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,13 +77,16 @@
 		786680791ACA4CAC0082348B /* BaseFramework */ = {
 			isa = PBXGroup;
 			children = (
+				786680A71ACA53610082348B /* Common */,
+				786680A81ACA53610082348B /* Images */,
+				786680A91ACA53610082348B /* Model */,
+				786680AA1ACA53610082348B /* UIs */,
+				786680AB1ACA53610082348B /* Vendor */,
 				7866807E1ACA4CAC0082348B /* AppDelegate.h */,
 				7866807F1ACA4CAC0082348B /* AppDelegate.m */,
-				786680811ACA4CAC0082348B /* ViewController.h */,
-				786680821ACA4CAC0082348B /* ViewController.m */,
-				786680841ACA4CAC0082348B /* Main.storyboard */,
+				786680A01ACA4E980082348B /* FirstViewController.h */,
+				786680A11ACA4E980082348B /* FirstViewController.m */,
 				786680871ACA4CAC0082348B /* Images.xcassets */,
-				786680891ACA4CAC0082348B /* LaunchScreen.xib */,
 				7866807A1ACA4CAC0082348B /* Supporting Files */,
 			);
 			path = BaseFramework;
@@ -98,6 +97,7 @@
 			children = (
 				7866807B1ACA4CAC0082348B /* Info.plist */,
 				7866807C1ACA4CAC0082348B /* main.m */,
+				786680A31ACA4FB20082348B /* BaseFramework.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -119,6 +119,51 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		786680A41ACA522D0082348B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				786680A51ACA52510082348B /* AVFoundation.framework */,
+				AF5847EBAD8CEA579F9F8073 /* libPods.a */,
+			);
+			name = Frameworks;
+			path = BaseFrameworkTests;
+			sourceTree = "<group>";
+		};
+		786680A71ACA53610082348B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		786680A81ACA53610082348B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		786680A91ACA53610082348B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		786680AA1ACA53610082348B /* UIs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIs;
+			sourceTree = "<group>";
+		};
+		786680AB1ACA53610082348B /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +171,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7866809A1ACA4CAC0082348B /* Build configuration list for PBXNativeTarget "BaseFramework" */;
 			buildPhases = (
+				C9D375BDECBC64B77B6FDAAC /* Check Pods Manifest.lock */,
 				786680731ACA4CAC0082348B /* Sources */,
 				786680741ACA4CAC0082348B /* Frameworks */,
 				786680751ACA4CAC0082348B /* Resources */,
+				11DD8CCCB5A3F308392F4F75 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -138,24 +185,6 @@
 			productName = BaseFramework;
 			productReference = 786680771ACA4CAC0082348B /* BaseFramework.app */;
 			productType = "com.apple.product-type.application";
-		};
-		7866808F1ACA4CAC0082348B /* BaseFrameworkTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7866809D1ACA4CAC0082348B /* Build configuration list for PBXNativeTarget "BaseFrameworkTests" */;
-			buildPhases = (
-				7866808C1ACA4CAC0082348B /* Sources */,
-				7866808D1ACA4CAC0082348B /* Frameworks */,
-				7866808E1ACA4CAC0082348B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				786680921ACA4CAC0082348B /* PBXTargetDependency */,
-			);
-			name = BaseFrameworkTests;
-			productName = BaseFrameworkTests;
-			productReference = 786680901ACA4CAC0082348B /* BaseFrameworkTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -168,10 +197,6 @@
 				TargetAttributes = {
 					786680761ACA4CAC0082348B = {
 						CreatedOnToolsVersion = 6.1.1;
-					};
-					7866808F1ACA4CAC0082348B = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = 786680761ACA4CAC0082348B;
 					};
 				};
 			};
@@ -189,7 +214,6 @@
 			projectRoot = "";
 			targets = (
 				786680761ACA4CAC0082348B /* BaseFramework */,
-				7866808F1ACA4CAC0082348B /* BaseFrameworkTests */,
 			);
 		};
 /* End PBXProject section */
@@ -199,68 +223,57 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				786680861ACA4CAC0082348B /* Main.storyboard in Resources */,
-				7866808B1ACA4CAC0082348B /* LaunchScreen.xib in Resources */,
 				786680881ACA4CAC0082348B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7866808E1ACA4CAC0082348B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11DD8CCCB5A3F308392F4F75 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
-/* End PBXResourcesBuildPhase section */
+		C9D375BDECBC64B77B6FDAAC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		786680731ACA4CAC0082348B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				786680831ACA4CAC0082348B /* ViewController.m in Sources */,
 				786680801ACA4CAC0082348B /* AppDelegate.m in Sources */,
+				786680A21ACA4E980082348B /* FirstViewController.m in Sources */,
 				7866807D1ACA4CAC0082348B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7866808C1ACA4CAC0082348B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				786680971ACA4CAC0082348B /* BaseFrameworkTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		786680921ACA4CAC0082348B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 786680761ACA4CAC0082348B /* BaseFramework */;
-			targetProxy = 786680911ACA4CAC0082348B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		786680841ACA4CAC0082348B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				786680851ACA4CAC0082348B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		786680891ACA4CAC0082348B /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7866808A1ACA4CAC0082348B /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		786680981ACA4CAC0082348B /* Debug */ = {
@@ -341,8 +354,12 @@
 		};
 		7866809B1ACA4CAC0082348B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6FB1DED2CF4A18419125958 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BaseFramework/BaseFramework.pch";
 				INFOPLIST_FILE = BaseFramework/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -351,45 +368,15 @@
 		};
 		7866809C1ACA4CAC0082348B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0E97DDDCD0DA93D5757F59D /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BaseFramework/BaseFramework.pch";
 				INFOPLIST_FILE = BaseFramework/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		7866809E1ACA4CAC0082348B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = BaseFrameworkTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaseFramework.app/BaseFramework";
-			};
-			name = Debug;
-		};
-		7866809F1ACA4CAC0082348B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = BaseFrameworkTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaseFramework.app/BaseFramework";
 			};
 			name = Release;
 		};
@@ -412,14 +399,7 @@
 				7866809C1ACA4CAC0082348B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		7866809D1ACA4CAC0082348B /* Build configuration list for PBXNativeTarget "BaseFrameworkTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7866809E1ACA4CAC0082348B /* Debug */,
-				7866809F1ACA4CAC0082348B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
