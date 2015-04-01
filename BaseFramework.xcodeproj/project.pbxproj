@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		783B3ED91ACBDDF5006BA9A8 /* UIFont+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 783B3ED81ACBDDF5006BA9A8 /* UIFont+Extension.m */; };
 		7866807D1ACA4CAC0082348B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7866807C1ACA4CAC0082348B /* main.m */; };
 		786680801ACA4CAC0082348B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7866807F1ACA4CAC0082348B /* AppDelegate.m */; };
 		786680881ACA4CAC0082348B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 786680871ACA4CAC0082348B /* Images.xcassets */; };
@@ -30,7 +31,6 @@
 		7880343A1ACBC4FC0033CE24 /* LYPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 788034301ACBC4FC0033CE24 /* LYPhotoCell.m */; };
 		7880343B1ACBC4FC0033CE24 /* LYPhotoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 788034321ACBC4FC0033CE24 /* LYPhotoItem.m */; };
 		7880343C1ACBC4FC0033CE24 /* LYPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 788034341ACBC4FC0033CE24 /* LYPhotosViewController.m */; };
-		788034421ACBC6010033CE24 /* ChatEmotionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7880343F1ACBC6010033CE24 /* ChatEmotionView.m */; };
 		788034431ACBC6010033CE24 /* CSGrowingTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 788034411ACBC6010033CE24 /* CSGrowingTextView.m */; };
 		7880344F1ACBC6C30033CE24 /* TQRichTextBaseRun.m in Sources */ = {isa = PBXBuildFile; fileRef = 788034461ACBC6C30033CE24 /* TQRichTextBaseRun.m */; };
 		788034501ACBC6C30033CE24 /* TQRichTextEmojiRun.m in Sources */ = {isa = PBXBuildFile; fileRef = 788034481ACBC6C30033CE24 /* TQRichTextEmojiRun.m */; };
@@ -38,10 +38,14 @@
 		788034521ACBC6C30033CE24 /* TQRichTextURLRun.m in Sources */ = {isa = PBXBuildFile; fileRef = 7880344C1ACBC6C30033CE24 /* TQRichTextURLRun.m */; };
 		788034531ACBC6C30033CE24 /* TQRichTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7880344E1ACBC6C30033CE24 /* TQRichTextView.m */; };
 		7880345D1ACBC8550033CE24 /* NSJSONSerialization+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7880345C1ACBC8550033CE24 /* NSJSONSerialization+Extension.m */; };
+		788034601ACBCD920033CE24 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7880345F1ACBCD920033CE24 /* NSString+Extension.m */; };
+		788034621ACBCE870033CE24 /* Emotion.plist in Resources */ = {isa = PBXBuildFile; fileRef = 788034611ACBCE870033CE24 /* Emotion.plist */; };
 		946809CA99D2343A7B2FA08D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF5847EBAD8CEA579F9F8073 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		783B3ED71ACBDDF5006BA9A8 /* UIFont+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Extension.h"; sourceTree = "<group>"; };
+		783B3ED81ACBDDF5006BA9A8 /* UIFont+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Extension.m"; sourceTree = "<group>"; };
 		786680771ACA4CAC0082348B /* BaseFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7866807B1ACA4CAC0082348B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7866807C1ACA4CAC0082348B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -91,8 +95,6 @@
 		788034321ACBC4FC0033CE24 /* LYPhotoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYPhotoItem.m; sourceTree = "<group>"; };
 		788034331ACBC4FC0033CE24 /* LYPhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYPhotosViewController.h; sourceTree = "<group>"; };
 		788034341ACBC4FC0033CE24 /* LYPhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYPhotosViewController.m; sourceTree = "<group>"; };
-		7880343E1ACBC6010033CE24 /* ChatEmotionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatEmotionView.h; sourceTree = "<group>"; };
-		7880343F1ACBC6010033CE24 /* ChatEmotionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatEmotionView.m; sourceTree = "<group>"; };
 		788034401ACBC6010033CE24 /* CSGrowingTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSGrowingTextView.h; sourceTree = "<group>"; };
 		788034411ACBC6010033CE24 /* CSGrowingTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSGrowingTextView.m; sourceTree = "<group>"; };
 		788034451ACBC6C30033CE24 /* TQRichTextBaseRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQRichTextBaseRun.h; sourceTree = "<group>"; };
@@ -108,6 +110,9 @@
 		788034551ACBC7570033CE24 /* EasyWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyWork.h; sourceTree = "<group>"; };
 		7880345B1ACBC8550033CE24 /* NSJSONSerialization+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSJSONSerialization+Extension.h"; sourceTree = "<group>"; };
 		7880345C1ACBC8550033CE24 /* NSJSONSerialization+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSJSONSerialization+Extension.m"; sourceTree = "<group>"; };
+		7880345E1ACBCD920033CE24 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		7880345F1ACBCD920033CE24 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		788034611ACBCE870033CE24 /* Emotion.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Emotion.plist; sourceTree = "<group>"; };
 		A6FB1DED2CF4A18419125958 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		AF5847EBAD8CEA579F9F8073 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0E97DDDCD0DA93D5757F59D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -138,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				786680791ACA4CAC0082348B /* BaseFramework */,
+				786680A81ACA53610082348B /* Images */,
 				786680931ACA4CAC0082348B /* BaseFrameworkTests */,
 				786680A41ACA522D0082348B /* Frameworks */,
 				786680781ACA4CAC0082348B /* Products */,
@@ -158,7 +164,6 @@
 			isa = PBXGroup;
 			children = (
 				786680A71ACA53610082348B /* Common */,
-				786680A81ACA53610082348B /* Images */,
 				786680A91ACA53610082348B /* Model */,
 				786680AA1ACA53610082348B /* UIs */,
 				786680AB1ACA53610082348B /* Vendor */,
@@ -219,8 +224,10 @@
 		786680A81ACA53610082348B /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				788034611ACBCE870033CE24 /* Emotion.plist */,
 			);
-			path = Images;
+			name = Images;
+			path = BaseFramework/Images;
 			sourceTree = "<group>";
 		};
 		786680A91ACA53610082348B /* Model */ = {
@@ -310,8 +317,6 @@
 		7880343D1ACBC6010033CE24 /* CSGrowingTextView */ = {
 			isa = PBXGroup;
 			children = (
-				7880343E1ACBC6010033CE24 /* ChatEmotionView.h */,
-				7880343F1ACBC6010033CE24 /* ChatEmotionView.m */,
 				788034401ACBC6010033CE24 /* CSGrowingTextView.h */,
 				788034411ACBC6010033CE24 /* CSGrowingTextView.m */,
 			);
@@ -351,6 +356,10 @@
 			children = (
 				7880345B1ACBC8550033CE24 /* NSJSONSerialization+Extension.h */,
 				7880345C1ACBC8550033CE24 /* NSJSONSerialization+Extension.m */,
+				7880345E1ACBCD920033CE24 /* NSString+Extension.h */,
+				7880345F1ACBCD920033CE24 /* NSString+Extension.m */,
+				783B3ED71ACBDDF5006BA9A8 /* UIFont+Extension.h */,
+				783B3ED81ACBDDF5006BA9A8 /* UIFont+Extension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -429,6 +438,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				786680881ACA4CAC0082348B /* Images.xcassets in Resources */,
+				788034621ACBCE870033CE24 /* Emotion.plist in Resources */,
 				788034361ACBC4FC0033CE24 /* backButton_n.png in Resources */,
 				788034371ACBC4FC0033CE24 /* edt_alarm_selected.png in Resources */,
 				788034351ACBC4FC0033CE24 /* backButton_h.png in Resources */,
@@ -484,7 +494,6 @@
 				7880343B1ACBC4FC0033CE24 /* LYPhotoItem.m in Sources */,
 				788034131ACBC2FF0033CE24 /* MJConst.m in Sources */,
 				788034521ACBC6C30033CE24 /* TQRichTextURLRun.m in Sources */,
-				788034421ACBC6010033CE24 /* ChatEmotionView.m in Sources */,
 				788034231ACBC4580033CE24 /* TPKeyboardAvoidingCollectionView.m in Sources */,
 				788034251ACBC4580033CE24 /* TPKeyboardAvoidingTableView.m in Sources */,
 				788034501ACBC6C30033CE24 /* TQRichTextEmojiRun.m in Sources */,
@@ -502,6 +511,8 @@
 				788034191ACBC2FF0033CE24 /* NSObject+MJKeyValue.m in Sources */,
 				788034181ACBC2FF0033CE24 /* NSObject+MJIvar.m in Sources */,
 				7880343C1ACBC4FC0033CE24 /* LYPhotosViewController.m in Sources */,
+				783B3ED91ACBDDF5006BA9A8 /* UIFont+Extension.m in Sources */,
+				788034601ACBCD920033CE24 /* NSString+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

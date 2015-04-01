@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>emotion</key>
+	<array>
+		<string>[傲慢]</string>
+		<string>[呲牙]</string>
+		<string>[大笑]</string>
+		<string>[调皮]</string>
+		<string>[汗]</string>
+		<string>[坏笑]</string>
+		<string>[剪刀手]</string>
+		<string>[囧]</string>
+		<string>[纠结]</string>
+		<string>[可爱]</string>
+		<string>[酷]</string>
+		<string>[卖萌]</string>
+		<string>[难受]</string>
+		<string>[亲亲]</string>
+		<string>[色]</string>
+		<string>[委屈]</string>
+		<string>[兴奋]</string>
+		<string>[眨眼]</string>
+		<string>[折磨]</string>
+		<string>[ok]</string>
+		<string>[大哭]</string>
+		<string>[嘚瑟]</string>
+		<string>[害羞]</string>
+		<string>[祈祷]</string>
+		<string>[疑问]</string>
+		<string>[再见]</string>
+		<string>[打招呼]</string>
+	</array>
+</dict>
+</plist>

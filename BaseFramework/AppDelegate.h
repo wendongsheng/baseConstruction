@@ -3,7 +3,7 @@
 //  BaseFramework
 //
 //  Created by wendongsheng on 15/3/31.
-//  Copyright (c) 2015年 etiantian. All rights reserved.
+//  Copyright (c) 2015年 wendongsheng. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
