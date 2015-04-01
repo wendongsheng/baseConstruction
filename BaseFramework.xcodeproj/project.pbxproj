@@ -37,6 +37,7 @@
 		788034511ACBC6C30033CE24 /* TQRichTextImageRun.m in Sources */ = {isa = PBXBuildFile; fileRef = 7880344A1ACBC6C30033CE24 /* TQRichTextImageRun.m */; };
 		788034521ACBC6C30033CE24 /* TQRichTextURLRun.m in Sources */ = {isa = PBXBuildFile; fileRef = 7880344C1ACBC6C30033CE24 /* TQRichTextURLRun.m */; };
 		788034531ACBC6C30033CE24 /* TQRichTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7880344E1ACBC6C30033CE24 /* TQRichTextView.m */; };
+		7880345D1ACBC8550033CE24 /* NSJSONSerialization+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7880345C1ACBC8550033CE24 /* NSJSONSerialization+Extension.m */; };
 		946809CA99D2343A7B2FA08D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF5847EBAD8CEA579F9F8073 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -104,6 +105,9 @@
 		7880344C1ACBC6C30033CE24 /* TQRichTextURLRun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQRichTextURLRun.m; sourceTree = "<group>"; };
 		7880344D1ACBC6C30033CE24 /* TQRichTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQRichTextView.h; sourceTree = "<group>"; };
 		7880344E1ACBC6C30033CE24 /* TQRichTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQRichTextView.m; sourceTree = "<group>"; };
+		788034551ACBC7570033CE24 /* EasyWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyWork.h; sourceTree = "<group>"; };
+		7880345B1ACBC8550033CE24 /* NSJSONSerialization+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSJSONSerialization+Extension.h"; sourceTree = "<group>"; };
+		7880345C1ACBC8550033CE24 /* NSJSONSerialization+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSJSONSerialization+Extension.m"; sourceTree = "<group>"; };
 		A6FB1DED2CF4A18419125958 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		AF5847EBAD8CEA579F9F8073 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0E97DDDCD0DA93D5757F59D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -236,6 +240,7 @@
 		786680AB1ACA53610082348B /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				788034541ACBC7380033CE24 /* Easywork */,
 				788034441ACBC6C30033CE24 /* TQRichTextView */,
 				7880343D1ACBC6010033CE24 /* CSGrowingTextView */,
 				788034271ACBC4FC0033CE24 /* Album */,
@@ -328,6 +333,40 @@
 				7880344E1ACBC6C30033CE24 /* TQRichTextView.m */,
 			);
 			path = TQRichTextView;
+			sourceTree = "<group>";
+		};
+		788034541ACBC7380033CE24 /* Easywork */ = {
+			isa = PBXGroup;
+			children = (
+				788034551ACBC7570033CE24 /* EasyWork.h */,
+				788034581ACBC7B50033CE24 /* Category */,
+				788034591ACBC7B50033CE24 /* UI */,
+				7880345A1ACBC7B50033CE24 /* Utils */,
+			);
+			path = Easywork;
+			sourceTree = "<group>";
+		};
+		788034581ACBC7B50033CE24 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				7880345B1ACBC8550033CE24 /* NSJSONSerialization+Extension.h */,
+				7880345C1ACBC8550033CE24 /* NSJSONSerialization+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		788034591ACBC7B50033CE24 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		7880345A1ACBC7B50033CE24 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -456,6 +495,7 @@
 				788034141ACBC2FF0033CE24 /* MJFoundation.m in Sources */,
 				7866807D1ACA4CAC0082348B /* main.m in Sources */,
 				788034241ACBC4580033CE24 /* TPKeyboardAvoidingScrollView.m in Sources */,
+				7880345D1ACBC8550033CE24 /* NSJSONSerialization+Extension.m in Sources */,
 				7880343A1ACBC4FC0033CE24 /* LYPhotoCell.m in Sources */,
 				788034391ACBC4FC0033CE24 /* LYImagePickerViewController.m in Sources */,
 				788034531ACBC6C30033CE24 /* TQRichTextView.m in Sources */,
