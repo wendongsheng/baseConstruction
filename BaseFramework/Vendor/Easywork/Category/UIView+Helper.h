@@ -1,5 +1,5 @@
 //
-//  UIFont+Extension.h
+//  UIView+Helper.h
 //  BaseFramework
 //
 //  Created by wendongsheng on 15/4/1.
@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIFont (Extension)
-
-- (CGFloat)ew_lineHeight;
-
+@interface UIView (Helper)
+/**
+ *  获取view所在的viewController
+ */
+- (UIViewController *)viewController;
 @end

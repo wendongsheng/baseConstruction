@@ -92,9 +92,6 @@
  */
 - (NSString *)ew_urlDecode;
 
-/**
- *  replace emoji emotion
- */
-- (NSString *)analyzeText;
+
 
 @end

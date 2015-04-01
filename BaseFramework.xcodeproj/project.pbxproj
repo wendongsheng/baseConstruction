@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		783B3ED91ACBDDF5006BA9A8 /* UIFont+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 783B3ED81ACBDDF5006BA9A8 /* UIFont+Extension.m */; };
+		783B3EDC1ACBE1EE006BA9A8 /* UIView+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 783B3EDB1ACBE1EE006BA9A8 /* UIView+Helper.m */; };
 		7866807D1ACA4CAC0082348B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7866807C1ACA4CAC0082348B /* main.m */; };
 		786680801ACA4CAC0082348B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7866807F1ACA4CAC0082348B /* AppDelegate.m */; };
 		786680881ACA4CAC0082348B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 786680871ACA4CAC0082348B /* Images.xcassets */; };
@@ -46,6 +47,8 @@
 /* Begin PBXFileReference section */
 		783B3ED71ACBDDF5006BA9A8 /* UIFont+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Extension.h"; sourceTree = "<group>"; };
 		783B3ED81ACBDDF5006BA9A8 /* UIFont+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Extension.m"; sourceTree = "<group>"; };
+		783B3EDA1ACBE1EE006BA9A8 /* UIView+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Helper.h"; sourceTree = "<group>"; };
+		783B3EDB1ACBE1EE006BA9A8 /* UIView+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Helper.m"; sourceTree = "<group>"; };
 		786680771ACA4CAC0082348B /* BaseFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7866807B1ACA4CAC0082348B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7866807C1ACA4CAC0082348B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -360,6 +363,8 @@
 				7880345F1ACBCD920033CE24 /* NSString+Extension.m */,
 				783B3ED71ACBDDF5006BA9A8 /* UIFont+Extension.h */,
 				783B3ED81ACBDDF5006BA9A8 /* UIFont+Extension.m */,
+				783B3EDA1ACBE1EE006BA9A8 /* UIView+Helper.h */,
+				783B3EDB1ACBE1EE006BA9A8 /* UIView+Helper.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -502,6 +507,7 @@
 				788034381ACBC4FC0033CE24 /* LYAlbumItem.m in Sources */,
 				788034511ACBC6C30033CE24 /* TQRichTextImageRun.m in Sources */,
 				788034141ACBC2FF0033CE24 /* MJFoundation.m in Sources */,
+				783B3EDC1ACBE1EE006BA9A8 /* UIView+Helper.m in Sources */,
 				7866807D1ACA4CAC0082348B /* main.m in Sources */,
 				788034241ACBC4580033CE24 /* TPKeyboardAvoidingScrollView.m in Sources */,
 				7880345D1ACBC8550033CE24 /* NSJSONSerialization+Extension.m in Sources */,
