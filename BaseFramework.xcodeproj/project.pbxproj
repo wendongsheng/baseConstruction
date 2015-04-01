@@ -32,6 +32,11 @@
 		7880343C1ACBC4FC0033CE24 /* LYPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 788034341ACBC4FC0033CE24 /* LYPhotosViewController.m */; };
 		788034421ACBC6010033CE24 /* ChatEmotionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7880343F1ACBC6010033CE24 /* ChatEmotionView.m */; };
 		788034431ACBC6010033CE24 /* CSGrowingTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 788034411ACBC6010033CE24 /* CSGrowingTextView.m */; };
+		7880344F1ACBC6C30033CE24 /* TQRichTextBaseRun.m in Sources */ = {isa = PBXBuildFile; fileRef = 788034461ACBC6C30033CE24 /* TQRichTextBaseRun.m */; };
+		788034501ACBC6C30033CE24 /* TQRichTextEmojiRun.m in Sources */ = {isa = PBXBuildFile; fileRef = 788034481ACBC6C30033CE24 /* TQRichTextEmojiRun.m */; };
+		788034511ACBC6C30033CE24 /* TQRichTextImageRun.m in Sources */ = {isa = PBXBuildFile; fileRef = 7880344A1ACBC6C30033CE24 /* TQRichTextImageRun.m */; };
+		788034521ACBC6C30033CE24 /* TQRichTextURLRun.m in Sources */ = {isa = PBXBuildFile; fileRef = 7880344C1ACBC6C30033CE24 /* TQRichTextURLRun.m */; };
+		788034531ACBC6C30033CE24 /* TQRichTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7880344E1ACBC6C30033CE24 /* TQRichTextView.m */; };
 		946809CA99D2343A7B2FA08D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF5847EBAD8CEA579F9F8073 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -89,6 +94,16 @@
 		7880343F1ACBC6010033CE24 /* ChatEmotionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatEmotionView.m; sourceTree = "<group>"; };
 		788034401ACBC6010033CE24 /* CSGrowingTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSGrowingTextView.h; sourceTree = "<group>"; };
 		788034411ACBC6010033CE24 /* CSGrowingTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSGrowingTextView.m; sourceTree = "<group>"; };
+		788034451ACBC6C30033CE24 /* TQRichTextBaseRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQRichTextBaseRun.h; sourceTree = "<group>"; };
+		788034461ACBC6C30033CE24 /* TQRichTextBaseRun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQRichTextBaseRun.m; sourceTree = "<group>"; };
+		788034471ACBC6C30033CE24 /* TQRichTextEmojiRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQRichTextEmojiRun.h; sourceTree = "<group>"; };
+		788034481ACBC6C30033CE24 /* TQRichTextEmojiRun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQRichTextEmojiRun.m; sourceTree = "<group>"; };
+		788034491ACBC6C30033CE24 /* TQRichTextImageRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQRichTextImageRun.h; sourceTree = "<group>"; };
+		7880344A1ACBC6C30033CE24 /* TQRichTextImageRun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQRichTextImageRun.m; sourceTree = "<group>"; };
+		7880344B1ACBC6C30033CE24 /* TQRichTextURLRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQRichTextURLRun.h; sourceTree = "<group>"; };
+		7880344C1ACBC6C30033CE24 /* TQRichTextURLRun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQRichTextURLRun.m; sourceTree = "<group>"; };
+		7880344D1ACBC6C30033CE24 /* TQRichTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQRichTextView.h; sourceTree = "<group>"; };
+		7880344E1ACBC6C30033CE24 /* TQRichTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQRichTextView.m; sourceTree = "<group>"; };
 		A6FB1DED2CF4A18419125958 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		AF5847EBAD8CEA579F9F8073 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0E97DDDCD0DA93D5757F59D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -221,6 +236,7 @@
 		786680AB1ACA53610082348B /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				788034441ACBC6C30033CE24 /* TQRichTextView */,
 				7880343D1ACBC6010033CE24 /* CSGrowingTextView */,
 				788034271ACBC4FC0033CE24 /* Album */,
 				7880341A1ACBC4580033CE24 /* KeyBoard */,
@@ -295,6 +311,23 @@
 				788034411ACBC6010033CE24 /* CSGrowingTextView.m */,
 			);
 			path = CSGrowingTextView;
+			sourceTree = "<group>";
+		};
+		788034441ACBC6C30033CE24 /* TQRichTextView */ = {
+			isa = PBXGroup;
+			children = (
+				788034451ACBC6C30033CE24 /* TQRichTextBaseRun.h */,
+				788034461ACBC6C30033CE24 /* TQRichTextBaseRun.m */,
+				788034471ACBC6C30033CE24 /* TQRichTextEmojiRun.h */,
+				788034481ACBC6C30033CE24 /* TQRichTextEmojiRun.m */,
+				788034491ACBC6C30033CE24 /* TQRichTextImageRun.h */,
+				7880344A1ACBC6C30033CE24 /* TQRichTextImageRun.m */,
+				7880344B1ACBC6C30033CE24 /* TQRichTextURLRun.h */,
+				7880344C1ACBC6C30033CE24 /* TQRichTextURLRun.m */,
+				7880344D1ACBC6C30033CE24 /* TQRichTextView.h */,
+				7880344E1ACBC6C30033CE24 /* TQRichTextView.m */,
+			);
+			path = TQRichTextView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -405,22 +438,27 @@
 			files = (
 				788034431ACBC6010033CE24 /* CSGrowingTextView.m in Sources */,
 				788034151ACBC2FF0033CE24 /* MJIvar.m in Sources */,
+				7880344F1ACBC6C30033CE24 /* TQRichTextBaseRun.m in Sources */,
 				786680801ACA4CAC0082348B /* AppDelegate.m in Sources */,
 				786680A21ACA4E980082348B /* FirstViewController.m in Sources */,
 				788034261ACBC4580033CE24 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
 				7880343B1ACBC4FC0033CE24 /* LYPhotoItem.m in Sources */,
 				788034131ACBC2FF0033CE24 /* MJConst.m in Sources */,
+				788034521ACBC6C30033CE24 /* TQRichTextURLRun.m in Sources */,
 				788034421ACBC6010033CE24 /* ChatEmotionView.m in Sources */,
 				788034231ACBC4580033CE24 /* TPKeyboardAvoidingCollectionView.m in Sources */,
 				788034251ACBC4580033CE24 /* TPKeyboardAvoidingTableView.m in Sources */,
+				788034501ACBC6C30033CE24 /* TQRichTextEmojiRun.m in Sources */,
 				788034171ACBC2FF0033CE24 /* NSObject+MJCoding.m in Sources */,
 				788034161ACBC2FF0033CE24 /* MJType.m in Sources */,
 				788034381ACBC4FC0033CE24 /* LYAlbumItem.m in Sources */,
+				788034511ACBC6C30033CE24 /* TQRichTextImageRun.m in Sources */,
 				788034141ACBC2FF0033CE24 /* MJFoundation.m in Sources */,
 				7866807D1ACA4CAC0082348B /* main.m in Sources */,
 				788034241ACBC4580033CE24 /* TPKeyboardAvoidingScrollView.m in Sources */,
 				7880343A1ACBC4FC0033CE24 /* LYPhotoCell.m in Sources */,
 				788034391ACBC4FC0033CE24 /* LYImagePickerViewController.m in Sources */,
+				788034531ACBC6C30033CE24 /* TQRichTextView.m in Sources */,
 				788034191ACBC2FF0033CE24 /* NSObject+MJKeyValue.m in Sources */,
 				788034181ACBC2FF0033CE24 /* NSObject+MJIvar.m in Sources */,
 				7880343C1ACBC4FC0033CE24 /* LYPhotosViewController.m in Sources */,
