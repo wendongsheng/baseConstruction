@@ -65,6 +65,17 @@
 
 }
 
+- (CGSize)ew_sizeWithFont:(UIFont *)font lineSpacing:(CGFloat)lineSpacing constrainedToSize:(CGSize)constrainedSize lineBreakMode:(NSLineBreakMode)lineBreakMode label:(UILabel *)label{
+    NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:self];
+    NSMutableParagraphStyle *paraphStyle = [[NSMutableParagraphStyle alloc] init];
+    [paraphStyle setLineSpacing:lineSpacing];
+    [attributedString addAttribute:NSParagraphStyleAttributeName value:paraphStyle range:NSMakeRange(0, self.length)];
+    label.attributedText = attributedString;
+    NSDictionary *attributdDic = @{NSFontAttributeName:font, NSParagraphStyleAttributeName:paraphStyle};
+    CGRect boundingRect = [self boundingRectWithSize:constrainedSize options:NSStringDrawingUsesLineFragmentOrigin attributes:attributdDic context:nil];
+    return CGSizeMake(ceilf(boundingRect.size.width), ceilf(boundingRect.size.height));
+}
+
 - (NSAttributedString *)ew_focusSubstring:(NSString *)subString color:(UIColor *)fontColor font:(UIFont *)font{
     NSAssert(nil != fontColor, @"nil color!");
     NSAssert(nil != font, @"nil font");

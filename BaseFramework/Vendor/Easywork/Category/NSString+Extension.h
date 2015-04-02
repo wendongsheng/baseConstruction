@@ -37,6 +37,11 @@
 - (CGFloat)ew_widthWithFont:(UIFont *)font lineHeight:(CGFloat)height;
 
 /**
+ *  get the size according to the font and lineSpacing and constrainedSize and lineBreakMode and label
+ */
+- (CGSize)ew_sizeWithFont:(UIFont *)font lineSpacing:(CGFloat)lineSpacing constrainedToSize:(CGSize)constrainedSize lineBreakMode:(NSLineBreakMode)lineBreakMode label:(UILabel *)label;
+
+/**
  *  focus substing in string
  */
 - (NSAttributedString *)ew_focusSubstring:(NSString *)subString color:(UIColor *)fontColor font:(UIFont *)font;

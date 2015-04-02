@@ -12,7 +12,7 @@
 
 @interface CSGrowingTextView ()
 {
-    int originalHeight;  //原始的高度，modify by 老岳
+    int originalHeight;  //原始的高度，modify by wendongsheng
 }
 
 @end
@@ -37,7 +37,7 @@
 - (id)initWithFrame:(CGRect)frame {
     
     if (self = [super initWithFrame:frame]) {
-        originalHeight = frame.size.height;  //modify by 老岳
+        originalHeight = frame.size.height;  //modify by wendongsheng
         [self initialize];
     }
     
@@ -226,7 +226,7 @@
              (lines > self.maximumNumberOfLines ? self.maximumNumberOfLines : lines));
     
     if (lines == 1) {
-        return originalHeight;  //modify by 老岳
+        return originalHeight;  //modify by wendongsheng
     }
     
     UIEdgeInsets iOS6Insets = UIEdgeInsetsMake(-7, 0, -7, 0);

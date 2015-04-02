@@ -16,6 +16,8 @@
 		786A7B151ACCDB1100FDCFA7 /* UIButton+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 786A7B141ACCDB1100FDCFA7 /* UIButton+Extension.m */; };
 		786A7B1B1ACCDF0C00FDCFA7 /* UITabBarController+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 786A7B1A1ACCDF0C00FDCFA7 /* UITabBarController+Rotate.m */; };
 		786A7B1E1ACCDF9B00FDCFA7 /* UINavigationController+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 786A7B1D1ACCDF9B00FDCFA7 /* UINavigationController+Rotate.m */; };
+		786A7B211ACCE24F00FDCFA7 /* VerticallyAlignedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 786A7B201ACCE24F00FDCFA7 /* VerticallyAlignedLabel.m */; };
+		786A7B241ACCE7AD00FDCFA7 /* EWShareSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 786A7B231ACCE7AD00FDCFA7 /* EWShareSheet.m */; };
 		788034131ACBC2FF0033CE24 /* MJConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 788034051ACBC2FF0033CE24 /* MJConst.m */; };
 		788034141ACBC2FF0033CE24 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 788034081ACBC2FF0033CE24 /* MJFoundation.m */; };
 		788034151ACBC2FF0033CE24 /* MJIvar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7880340A1ACBC2FF0033CE24 /* MJIvar.m */; };
@@ -71,6 +73,10 @@
 		786A7B1A1ACCDF0C00FDCFA7 /* UITabBarController+Rotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+Rotate.m"; sourceTree = "<group>"; };
 		786A7B1C1ACCDF9B00FDCFA7 /* UINavigationController+Rotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Rotate.h"; sourceTree = "<group>"; };
 		786A7B1D1ACCDF9B00FDCFA7 /* UINavigationController+Rotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Rotate.m"; sourceTree = "<group>"; };
+		786A7B1F1ACCE24F00FDCFA7 /* VerticallyAlignedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerticallyAlignedLabel.h; sourceTree = "<group>"; };
+		786A7B201ACCE24F00FDCFA7 /* VerticallyAlignedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerticallyAlignedLabel.m; sourceTree = "<group>"; };
+		786A7B221ACCE7AD00FDCFA7 /* EWShareSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWShareSheet.h; sourceTree = "<group>"; };
+		786A7B231ACCE7AD00FDCFA7 /* EWShareSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWShareSheet.m; sourceTree = "<group>"; };
 		788034041ACBC2FF0033CE24 /* MJConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJConst.h; sourceTree = "<group>"; };
 		788034051ACBC2FF0033CE24 /* MJConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJConst.m; sourceTree = "<group>"; };
 		788034061ACBC2FF0033CE24 /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
@@ -387,6 +393,10 @@
 		788034591ACBC7B50033CE24 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				786A7B221ACCE7AD00FDCFA7 /* EWShareSheet.h */,
+				786A7B231ACCE7AD00FDCFA7 /* EWShareSheet.m */,
+				786A7B1F1ACCE24F00FDCFA7 /* VerticallyAlignedLabel.h */,
+				786A7B201ACCE24F00FDCFA7 /* VerticallyAlignedLabel.m */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -506,6 +516,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				788034431ACBC6010033CE24 /* CSGrowingTextView.m in Sources */,
+				786A7B241ACCE7AD00FDCFA7 /* EWShareSheet.m in Sources */,
 				788034151ACBC2FF0033CE24 /* MJIvar.m in Sources */,
 				7880344F1ACBC6C30033CE24 /* TQRichTextBaseRun.m in Sources */,
 				786680801ACA4CAC0082348B /* AppDelegate.m in Sources */,
@@ -517,6 +528,7 @@
 				788034521ACBC6C30033CE24 /* TQRichTextURLRun.m in Sources */,
 				788034231ACBC4580033CE24 /* TPKeyboardAvoidingCollectionView.m in Sources */,
 				788034251ACBC4580033CE24 /* TPKeyboardAvoidingTableView.m in Sources */,
+				786A7B211ACCE24F00FDCFA7 /* VerticallyAlignedLabel.m in Sources */,
 				788034501ACBC6C30033CE24 /* TQRichTextEmojiRun.m in Sources */,
 				788034171ACBC2FF0033CE24 /* NSObject+MJCoding.m in Sources */,
 				788034161ACBC2FF0033CE24 /* MJType.m in Sources */,
