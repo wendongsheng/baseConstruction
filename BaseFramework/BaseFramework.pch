@@ -13,8 +13,9 @@
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 
 
-    #import "FirstViewController.h"
-    #import "EasyWork.h"
-
+#import "FirstViewController.h"
+#import "EasyWork.h"
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <SDWebImage/UIButton+WebCache.h>
 
 #endif

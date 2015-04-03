@@ -5,10 +5,13 @@
 //  Created by wendongsheng on 15/3/31.
 //  Copyright (c) 2015年 wendongsheng. All rights reserved.
 //
-
+#define kUrl @"http://attach.etiantian.com/common/parentCircle/activity/15795_59099190.jpg"
 #import "FirstViewController.h"
+#import "EWFocusView.h"
 
-@interface FirstViewController ()
+@interface FirstViewController ()<EWFocusViewDataSource, EWFocusViewDelegate>
+
+@property (nonatomic, strong) EWFocusView *focusView;
 
 @end
 
@@ -18,12 +21,35 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    self.view.backgroundColor = [UIColor redColor];
+    _focusView = [[EWFocusView alloc] initWithFrame:CGRectMake(0, 200, self.view.frame.size.width, 200) showPageIndicator:YES];
+    _focusView.dataSource = self;
+    _focusView.timeInterval = 2.0;
+    _focusView.delegate = self;
+    [_focusView reloadData];
+    [_focusView startAutoRun];
+
+    [self.view addSubview:self.focusView];
+    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (NSInteger)numberOfPages:(EWFocusView *)focusView{
+    return 10;
+}
+
+- (UIView *)focusView:(EWFocusView *)focusView pageAtIndex:(NSInteger)index{
+    UIImageView *image = [[UIImageView alloc] initWithFrame:CGRectMake(0, 200, self.view.frame.size.width, 200)];
+    image.userInteractionEnabled = YES;
+    [image sd_setImageWithURL:[NSURL URLWithString:kUrl] placeholderImage:[UIImage imageNamed:@"user_photo"]];
+    return image;
+}
+
+- (void)focusView:(EWFocusView *)focusView didSelectAtIndex:(NSInteger)index{
+    NSLog(@"ddddddddddddd");
 }
 
 /*
