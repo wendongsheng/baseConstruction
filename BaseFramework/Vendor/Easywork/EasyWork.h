@@ -12,3 +12,4 @@
 #import "UIButton+Extension.h"
 #import "UITabBarController+Rotate.h"
 #import "UINavigationController+Rotate.h"
+#import "EWCommon.h"

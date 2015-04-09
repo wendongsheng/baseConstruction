@@ -38,6 +38,7 @@ PODS:
   - FMDB/common (2.5)
   - FMDB/standard (2.5):
     - FMDB/common
+  - IQKeyboardManager (3.2.2)
   - MagicalRecord (2.2):
     - MagicalRecord/Core (= 2.2)
   - MagicalRecord/Core (2.2)
@@ -54,6 +55,7 @@ DEPENDENCIES:
   - AFNetworking (~> 2.5.0)
   - ASIHTTPRequest (~> 1.8.2)
   - FMDB (~> 2.5)
+  - IQKeyboardManager
   - MagicalRecord (~> 2.2)
   - MBProgressHUD (~> 0.9)
   - MJRefresh (~> 1.3.7)
@@ -65,6 +67,7 @@ SPEC CHECKSUMS:
   AFNetworking: fefbce9660acb17f48ae0011292d4da0f457bf36
   ASIHTTPRequest: ec013992946676b7978dcbde6396d57312d21db4
   FMDB: 96e8f1bcc1329e269330f99770ad4285d9003e52
+  IQKeyboardManager: 99df8006864663a4126a77b9a2f7ea70077eff31
   MagicalRecord: f8a56bb87ab6552f20c4bb8681a1958a197ea3cd
   MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
   MJRefresh: 1331c095479ceae5b8ae32daa8855c93be0138e4
