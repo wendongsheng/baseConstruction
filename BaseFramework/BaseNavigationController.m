@@ -200,30 +200,30 @@ static CGFloat const MIN_VALID_PROPORTION = 0.42;
 /**
  *  解决手势冲突的现象（such as delete tableview cell）
  */
-- (BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer *)gestureRecognizer
-{
-    if (gestureRecognizer == _popGestureRecognizer) {
-        CGPoint location = [gestureRecognizer locationInView:gestureRecognizer.view];
-        if (location.x > gestureRecognizer.view.frame.size.width * MIN_VALID_PROPORTION) {
-            return NO;
-        }
-        else {
-            return YES;
-        }
-    }
-    else {
-        return YES;
-    }
-}
-
-- (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldRecognizeSimultaneouslyWithGestureRecognizer:(UIGestureRecognizer *)otherGestureRecognizer
-{
-    if (gestureRecognizer == _popGestureRecognizer || otherGestureRecognizer == _popGestureRecognizer) {
-        return self.recognizeOtherGestureSimultaneously;
-    }
-    else {
-        return NO;
-    }
-}
+//- (BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer *)gestureRecognizer
+//{
+//    if (gestureRecognizer == _popGestureRecognizer) {
+//        CGPoint location = [gestureRecognizer locationInView:gestureRecognizer.view];
+//        if (location.x > gestureRecognizer.view.frame.size.width * MIN_VALID_PROPORTION) {
+//            return NO;
+//        }
+//        else {
+//            return YES;
+//        }
+//    }
+//    else {
+//        return YES;
+//    }
+//}
+//
+//- (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldRecognizeSimultaneouslyWithGestureRecognizer:(UIGestureRecognizer *)otherGestureRecognizer
+//{
+//    if (gestureRecognizer == _popGestureRecognizer || otherGestureRecognizer == _popGestureRecognizer) {
+//        return self.recognizeOtherGestureSimultaneously;
+//    }
+//    else {
+//        return NO;
+//    }
+//}
 
 @end

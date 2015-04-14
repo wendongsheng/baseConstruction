@@ -44,8 +44,15 @@
     tabBarController.viewControllers = @[firstNC,secondNC,thirdNC,fouthNC];
     self.window.rootViewController = tabBarController;
     
+    NSArray *titleArray = @[@"Home",@"Search",@"Friend",@"Message"];
     //设置tabBar
-    
+    for (int i = 0; i < tabBarController.tabBar.items.count; i++) {
+        RDVTabBarItem *item = tabBarController.tabBar.items[i];
+        item.title = titleArray[i];
+        item.unselectedTitleAttributes = @{NSFontAttributeName: FONT(10),NSForegroundColorAttributeName: RGB_COLOR(95, 95, 95)};
+        item.selectedTitleAttributes = @{NSFontAttributeName: FONT(10),NSForegroundColorAttributeName: RGB_COLOR(52, 152, 219)};
+  
+    }
 }
 
 - (void)settingKeyboardManager{
@@ -63,7 +70,7 @@
     /**
      *  是否自动显示toobar
      */
-    [[IQKeyboardManager sharedManager] setEnableAutoToolbar:NO];//添加done的字样
+    [[IQKeyboardManager sharedManager] setEnableAutoToolbar:YES];//添加done的字样
     
     /**
      *  是否显示用户textfield的tintcolor

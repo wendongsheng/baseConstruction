@@ -24,5 +24,6 @@
 #import "SecondViewController.h"
 #import "ThirdViewController.h"
 #import "FouthViewController.h"
+#import <RDVTabBarItem.h>
 
 #endif

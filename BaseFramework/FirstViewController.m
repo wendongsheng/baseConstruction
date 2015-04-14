@@ -7,9 +7,9 @@
 //
 
 #import "FirstViewController.h"
+#import "ViewController.h"
 
-@interface FirstViewController ()<UITextFieldDelegate>
-
+@interface FirstViewController ()
 
 @end
 
@@ -20,17 +20,25 @@
     // Do any additional setup after loading the view.
     
     self.view.backgroundColor = [UIColor colorWithRed:arc4random()%256/255.0 green:arc4random()%256/255.0 blue:arc4random()%256/255.0 alpha:1];
-    UITextField *text = [[UITextField alloc] initWithFrame:CGRectMake(10, SCREEN_HEIGHT-50-49, SCREEN_WIDTH-2*10, 30)];
-    text.borderStyle =  UITextBorderStyleRoundedRect;
-    [self.view addSubview:text];
-    text.delegate = self;
-    text.placeholder = @"请输入内容";
     
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    button.backgroundColor = WHITE_COLOR;
+    button.frame = CGRectMake(10, 200, SCREEN_WIDTH-2*10, 30);
+    [button setTitle:@"点击" forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(handleButton) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
     
 }
 
-- (void)textFieldDidBeginEditing:(UITextField *)textField{
-    CLog(@"这是测试数据");
+- (void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    self.rdv_tabBarController.tabBarHidden = NO;
+}
+
+- (void)handleButton{
+    ViewController *VC = [[ViewController alloc] init];
+    [self.rdv_tabBarController setTabBarHidden:YES animated:YES];
+    [self.navigationController pushViewController:VC animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {
