@@ -21,9 +21,77 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
-    FirstViewController *firstVC = [[FirstViewController alloc] init];
-    self.window.rootViewController = firstVC;
+    //设置rootViewController
+    [self settingHomeViewController];
+    
+    //设置键盘管理
+    [self settingKeyboardManager];
+    
     return YES;
+}
+
+- (void)settingHomeViewController{
+    BaseNavigationController *firstNC = [[BaseNavigationController alloc] initWithRootViewController:[FirstViewController new]];
+    
+    BaseNavigationController *secondNC = [[BaseNavigationController alloc] initWithRootViewController:[SecondViewController new]];
+    
+    BaseNavigationController *thirdNC = [[BaseNavigationController alloc] initWithRootViewController:[ThirdViewController new]];
+    
+    BaseNavigationController *fouthNC = [[BaseNavigationController alloc] initWithRootViewController:[FouthViewController new]];
+    
+    //初始化tabBarController
+    RDVTabBarController *tabBarController = [[RDVTabBarController alloc] init];
+    tabBarController.viewControllers = @[firstNC,secondNC,thirdNC,fouthNC];
+    self.window.rootViewController = tabBarController;
+    
+    //设置tabBar
+    
+}
+
+- (void)settingKeyboardManager{
+    //设置keyboardManager是否可用
+    [[IQKeyboardManager sharedManager] setEnable:YES];
+    
+    //设置键盘和textfield的距离
+    [[IQKeyboardManager sharedManager] setKeyboardDistanceFromTextField:10];
+    
+    /**
+     *  设置是否显示底部的黑框
+     */
+    [[IQKeyboardManager sharedManager] setPreventShowingBottomBlankSpace:YES];
+    
+    /**
+     *  是否自动显示toobar
+     */
+    [[IQKeyboardManager sharedManager] setEnableAutoToolbar:NO];//添加done的字样
+    
+    /**
+     *  是否显示用户textfield的tintcolor
+     */
+    [[IQKeyboardManager sharedManager] setShouldToolbarUsesTextFieldTintColor:YES];
+    
+    /**
+     *  是否显示placeHolder
+     */
+    [[IQKeyboardManager sharedManager] setShouldShowTextFieldPlaceholder:YES];
+    
+    /**
+     *  适应textfield
+     *
+     *  @return <#return value description#>
+     */
+    [[IQKeyboardManager sharedManager] setCanAdjustTextView:YES];
+    
+    /**
+     *  点击外部使键盘收缩
+     *
+     *  @return <#return value description#>
+     */
+    [[IQKeyboardManager sharedManager] setShouldResignOnTouchOutside:YES];
+    
+    [[IQKeyboardManager sharedManager] setShouldPlayInputClicks:YES];
+    
+    [[IQKeyboardManager sharedManager] setShouldAdoptDefaultKeyboardAnimation:YES];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

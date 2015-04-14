@@ -1,36 +1,24 @@
 //
-//  FirstViewController.m
+//  SecondViewController.m
 //  BaseFramework
 //
-//  Created by wendongsheng on 15/3/31.
-//  Copyright (c) 2015年 wendongsheng. All rights reserved.
+//  Created by wendongsheng on 15/4/14.
+//  Copyright (c) 2015年 etiantian. All rights reserved.
 //
 
-#import "FirstViewController.h"
+#import "SecondViewController.h"
 
-@interface FirstViewController ()<UITextFieldDelegate>
-
+@interface SecondViewController ()
 
 @end
 
-@implementation FirstViewController
+@implementation SecondViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
     
     self.view.backgroundColor = [UIColor colorWithRed:arc4random()%256/255.0 green:arc4random()%256/255.0 blue:arc4random()%256/255.0 alpha:1];
-    UITextField *text = [[UITextField alloc] initWithFrame:CGRectMake(10, SCREEN_HEIGHT-50-49, SCREEN_WIDTH-2*10, 30)];
-    text.borderStyle =  UITextBorderStyleRoundedRect;
-    [self.view addSubview:text];
-    text.delegate = self;
-    text.placeholder = @"请输入内容";
-    
-    
-}
-
-- (void)textFieldDidBeginEditing:(UITextField *)textField{
-    CLog(@"这是测试数据");
+    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
