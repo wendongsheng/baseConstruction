@@ -9,22 +9,21 @@
 #import "UINavigationController+Rotate.h"
 
 @implementation UINavigationController (Rotate)
-/**
- *  ios 5.X
- */
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation{
+//ios5.X
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation
+{
     return (toInterfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
-/**
- *  ios 6 and later
- */
-- (BOOL)shouldAutorotate{
-    return NO;
+- (BOOL)shouldAutorotate
+{
+    return YES;
 }
 
-- (NSUInteger)supportedInterfaceOrientations{
-    return [self.viewControllers.lastObject supportedInterfaceOrientations];
+- (NSUInteger)supportedInterfaceOrientations
+{
+    return self.topViewController.supportedInterfaceOrientations;
 }
+
 
 @end

@@ -11,15 +11,19 @@
 @implementation UITabBarController (Rotate)
 
 //ios5.X
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation{
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation
+{
     return (toInterfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
-/**
- *  ios6.X and later
- */
-- (BOOL)shouldAutorotate{
+//ios6.X and later
+- (BOOL)shouldAutorotate
+{
     return NO;
+}
+- (NSUInteger)supportedInterfaceOrientations
+{
+    return UIInterfaceOrientationMaskPortrait;
 }
 
 @end

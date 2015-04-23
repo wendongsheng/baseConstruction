@@ -14,6 +14,7 @@
 		7835349F1ADD1215001E82AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7835349D1ADD1215001E82AC /* ViewController.m */; };
 		783534A31ADD127C001E82AC /* WDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 783534A21ADD127C001E82AC /* WDTableViewController.m */; };
 		783534A61ADD12D8001E82AC /* WDTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 783534A51ADD12D8001E82AC /* WDTableViewCell.m */; };
+		783534AD1ADD1E6A001E82AC /* ReCyleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 783534AC1ADD1E6A001E82AC /* ReCyleViewController.m */; };
 		783B3ED91ACBDDF5006BA9A8 /* UIFont+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 783B3ED81ACBDDF5006BA9A8 /* UIFont+Extension.m */; };
 		783B3EDC1ACBE1EE006BA9A8 /* UIView+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 783B3EDB1ACBE1EE006BA9A8 /* UIView+Helper.m */; };
 		7866807D1ACA4CAC0082348B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7866807C1ACA4CAC0082348B /* main.m */; };
@@ -24,6 +25,9 @@
 		786A7B1E1ACCDF9B00FDCFA7 /* UINavigationController+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 786A7B1D1ACCDF9B00FDCFA7 /* UINavigationController+Rotate.m */; };
 		786A7B211ACCE24F00FDCFA7 /* VerticallyAlignedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 786A7B201ACCE24F00FDCFA7 /* VerticallyAlignedLabel.m */; };
 		786A7B241ACCE7AD00FDCFA7 /* EWShareSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 786A7B231ACCE7AD00FDCFA7 /* EWShareSheet.m */; };
+		786B8A541ADDFB6F0025211B /* TestOneVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 786B8A531ADDFB6F0025211B /* TestOneVC.m */; };
+		786B8A571ADDFB800025211B /* TestTwoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 786B8A561ADDFB800025211B /* TestTwoVC.m */; };
+		786B8A5A1ADDFC9A0025211B /* UIViewController+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 786B8A591ADDFC9A0025211B /* UIViewController+Rotate.m */; };
 		787588941ACE2E3C0083D6F0 /* EWTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 787588931ACE2E3C0083D6F0 /* EWTextField.m */; };
 		7875889A1ACE450E0083D6F0 /* EWFocusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 787588991ACE450E0083D6F0 /* EWFocusView.m */; };
 		788034131ACBC2FF0033CE24 /* MJConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 788034051ACBC2FF0033CE24 /* MJConst.m */; };
@@ -73,6 +77,8 @@
 		783534A21ADD127C001E82AC /* WDTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDTableViewController.m; sourceTree = "<group>"; };
 		783534A41ADD12D8001E82AC /* WDTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDTableViewCell.h; sourceTree = "<group>"; };
 		783534A51ADD12D8001E82AC /* WDTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDTableViewCell.m; sourceTree = "<group>"; };
+		783534AB1ADD1E6A001E82AC /* ReCyleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReCyleViewController.h; sourceTree = "<group>"; };
+		783534AC1ADD1E6A001E82AC /* ReCyleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReCyleViewController.m; sourceTree = "<group>"; };
 		783B3ED71ACBDDF5006BA9A8 /* UIFont+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Extension.h"; sourceTree = "<group>"; };
 		783B3ED81ACBDDF5006BA9A8 /* UIFont+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Extension.m"; sourceTree = "<group>"; };
 		783B3EDA1ACBE1EE006BA9A8 /* UIView+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Helper.h"; sourceTree = "<group>"; };
@@ -98,6 +104,12 @@
 		786A7B201ACCE24F00FDCFA7 /* VerticallyAlignedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerticallyAlignedLabel.m; sourceTree = "<group>"; };
 		786A7B221ACCE7AD00FDCFA7 /* EWShareSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWShareSheet.h; sourceTree = "<group>"; };
 		786A7B231ACCE7AD00FDCFA7 /* EWShareSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWShareSheet.m; sourceTree = "<group>"; };
+		786B8A521ADDFB6F0025211B /* TestOneVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestOneVC.h; sourceTree = "<group>"; };
+		786B8A531ADDFB6F0025211B /* TestOneVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestOneVC.m; sourceTree = "<group>"; };
+		786B8A551ADDFB800025211B /* TestTwoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTwoVC.h; sourceTree = "<group>"; };
+		786B8A561ADDFB800025211B /* TestTwoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTwoVC.m; sourceTree = "<group>"; };
+		786B8A581ADDFC9A0025211B /* UIViewController+Rotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Rotate.h"; sourceTree = "<group>"; };
+		786B8A591ADDFC9A0025211B /* UIViewController+Rotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Rotate.m"; sourceTree = "<group>"; };
 		787588921ACE2E3C0083D6F0 /* EWTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWTextField.h; sourceTree = "<group>"; };
 		787588931ACE2E3C0083D6F0 /* EWTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWTextField.m; sourceTree = "<group>"; };
 		787588981ACE450E0083D6F0 /* EWFocusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWFocusView.h; sourceTree = "<group>"; };
@@ -188,6 +200,18 @@
 		7835348F1ADD1195001E82AC /* UIs */ = {
 			isa = PBXGroup;
 			children = (
+				783534AA1ADD1E29001E82AC /* Fouth */,
+				783534A91ADD1E1E001E82AC /* Third */,
+				783534A81ADD1E18001E82AC /* Second */,
+				783534A71ADD1E10001E82AC /* First */,
+			);
+			name = UIs;
+			path = Vendor/UIs;
+			sourceTree = "<group>";
+		};
+		783534A71ADD1E10001E82AC /* First */ = {
+			isa = PBXGroup;
+			children = (
 				783534901ADD1195001E82AC /* FirstViewController.h */,
 				783534911ADD1195001E82AC /* FirstViewController.m */,
 				7835349C1ADD1215001E82AC /* ViewController.h */,
@@ -196,15 +220,41 @@
 				783534A21ADD127C001E82AC /* WDTableViewController.m */,
 				783534A41ADD12D8001E82AC /* WDTableViewCell.h */,
 				783534A51ADD12D8001E82AC /* WDTableViewCell.m */,
-				783534921ADD1195001E82AC /* FouthViewController.h */,
-				783534931ADD1195001E82AC /* FouthViewController.m */,
+			);
+			name = First;
+			sourceTree = "<group>";
+		};
+		783534A81ADD1E18001E82AC /* Second */ = {
+			isa = PBXGroup;
+			children = (
 				783534941ADD1195001E82AC /* SecondViewController.h */,
 				783534951ADD1195001E82AC /* SecondViewController.m */,
+				783534AB1ADD1E6A001E82AC /* ReCyleViewController.h */,
+				783534AC1ADD1E6A001E82AC /* ReCyleViewController.m */,
+			);
+			name = Second;
+			sourceTree = "<group>";
+		};
+		783534A91ADD1E1E001E82AC /* Third */ = {
+			isa = PBXGroup;
+			children = (
 				783534961ADD1195001E82AC /* ThirdViewController.h */,
 				783534971ADD1195001E82AC /* ThirdViewController.m */,
+				786B8A521ADDFB6F0025211B /* TestOneVC.h */,
+				786B8A531ADDFB6F0025211B /* TestOneVC.m */,
+				786B8A551ADDFB800025211B /* TestTwoVC.h */,
+				786B8A561ADDFB800025211B /* TestTwoVC.m */,
 			);
-			name = UIs;
-			path = Vendor/UIs;
+			name = Third;
+			sourceTree = "<group>";
+		};
+		783534AA1ADD1E29001E82AC /* Fouth */ = {
+			isa = PBXGroup;
+			children = (
+				783534921ADD1195001E82AC /* FouthViewController.h */,
+				783534931ADD1195001E82AC /* FouthViewController.m */,
+			);
+			name = Fouth;
 			sourceTree = "<group>";
 		};
 		7866806E1ACA4CAC0082348B = {
@@ -429,6 +479,8 @@
 				786A7B1A1ACCDF0C00FDCFA7 /* UITabBarController+Rotate.m */,
 				786A7B1C1ACCDF9B00FDCFA7 /* UINavigationController+Rotate.h */,
 				786A7B1D1ACCDF9B00FDCFA7 /* UINavigationController+Rotate.m */,
+				786B8A581ADDFC9A0025211B /* UIViewController+Rotate.h */,
+				786B8A591ADDFC9A0025211B /* UIViewController+Rotate.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -565,6 +617,7 @@
 			files = (
 				7835349F1ADD1215001E82AC /* ViewController.m in Sources */,
 				788034431ACBC6010033CE24 /* CSGrowingTextView.m in Sources */,
+				786B8A541ADDFB6F0025211B /* TestOneVC.m in Sources */,
 				786A7B241ACCE7AD00FDCFA7 /* EWShareSheet.m in Sources */,
 				788034151ACBC2FF0033CE24 /* MJIvar.m in Sources */,
 				788618B91ADCB54F00092B5B /* BaseNavigationController.m in Sources */,
@@ -576,6 +629,7 @@
 				788034131ACBC2FF0033CE24 /* MJConst.m in Sources */,
 				788034521ACBC6C30033CE24 /* TQRichTextURLRun.m in Sources */,
 				788034231ACBC4580033CE24 /* TPKeyboardAvoidingCollectionView.m in Sources */,
+				786B8A5A1ADDFC9A0025211B /* UIViewController+Rotate.m in Sources */,
 				788034251ACBC4580033CE24 /* TPKeyboardAvoidingTableView.m in Sources */,
 				786A7B211ACCE24F00FDCFA7 /* VerticallyAlignedLabel.m in Sources */,
 				788034501ACBC6C30033CE24 /* TQRichTextEmojiRun.m in Sources */,
@@ -599,9 +653,11 @@
 				788034391ACBC4FC0033CE24 /* LYImagePickerViewController.m in Sources */,
 				788034531ACBC6C30033CE24 /* TQRichTextView.m in Sources */,
 				783534981ADD1195001E82AC /* FirstViewController.m in Sources */,
+				783534AD1ADD1E6A001E82AC /* ReCyleViewController.m in Sources */,
 				788034191ACBC2FF0033CE24 /* NSObject+MJKeyValue.m in Sources */,
 				786A7B151ACCDB1100FDCFA7 /* UIButton+Extension.m in Sources */,
 				788034181ACBC2FF0033CE24 /* NSObject+MJIvar.m in Sources */,
+				786B8A571ADDFB800025211B /* TestTwoVC.m in Sources */,
 				7880343C1ACBC4FC0033CE24 /* LYPhotosViewController.m in Sources */,
 				7875889A1ACE450E0083D6F0 /* EWFocusView.m in Sources */,
 				783B3ED91ACBDDF5006BA9A8 /* UIFont+Extension.m in Sources */,
