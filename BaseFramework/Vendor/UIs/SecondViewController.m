@@ -28,8 +28,14 @@
     [self.view addSubview:button];
 }
 
+- (void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    [self.rdv_tabBarController setTabBarHidden:NO animated:YES];
+}
+
 - (void)handleButton{
     ReCyleViewController *VC = [[ReCyleViewController alloc] init];
+    [self.rdv_tabBarController setTabBarHidden:YES animated:YES];
     [self.navigationController pushViewController:VC animated:YES];
 }
 

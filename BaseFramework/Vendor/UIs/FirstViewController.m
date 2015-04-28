@@ -32,7 +32,7 @@
 
 - (void)viewDidAppear:(BOOL)animated{
     [super viewDidAppear:animated];
-    self.rdv_tabBarController.tabBarHidden = NO;
+    [self.rdv_tabBarController setTabBarHidden:NO animated:YES];
 }
 
 - (void)handleButton{

@@ -76,7 +76,6 @@
 - (void)configScrollView
 {
     _scrollView = [[UIScrollView alloc] initWithFrame:self.bounds];
-    _scrollView.backgroundColor = [UIColor clearColor];
     _scrollView.pagingEnabled = YES;
     _scrollView.showsHorizontalScrollIndicator = NO;
     _scrollView.showsVerticalScrollIndicator = NO;
@@ -103,10 +102,10 @@
     if (showPageIndicator) {
         // _titleLabel.frame = CGRectMake(5, 0, 250, 40);
         
-        _pageControl= [[UIPageControl alloc] initWithFrame:CGRectMake(_titleBackgroundView.frame.size.width-70, 25, 70, 10)];
+        _pageControl= [[UIPageControl alloc] initWithFrame:CGRectMake(ViewFW(_titleBackgroundView)-70, 25, 70, 10)];
         _pageControl.pageIndicatorTintColor = [UIColor colorWithWhite:1.0 alpha:0.6];
         _pageControl.currentPageIndicatorTintColor = [UIColor whiteColor];
-        _pageControl.backgroundColor = [UIColor clearColor];
+        _pageControl.backgroundColor = CLEAR_COLOR;
         [_titleBackgroundView addSubview:_pageControl];
     }
     
@@ -121,12 +120,15 @@
     
 }
 
+
+
 #pragma mark -- reload Data
 
 - (void)reloadData
 {
     /// get numbers of page
     pages = [self.dataSource numberOfPages:self];
+    currentPage = 0;
     
     if (showPageIndicator) {
         _pageControl.numberOfPages = pages;
@@ -135,7 +137,7 @@
         }else{
             _pageControl.hidden = NO;
         }
-        _pageControl.frame = CGRectMake(_titleBackgroundView.frame.size.width-pages*15-10, 25, pages*15, 10);
+        _pageControl.frame = CGRectMake(ViewFW(_titleBackgroundView)-pages*15-10, 25, pages*15, 10);
     }
     
     if (pages != 0) {
@@ -153,7 +155,6 @@
     [self clearSubView:_scrollView];
     
     ///get new data
-    NSLog(@"%ld",currentPage);
     [self getDisplayViews:currentPage];
     
     
@@ -169,10 +170,7 @@
     
     // show display view
     _scrollView.contentOffset = CGPointMake(self.frame.size.width, 0);
-    
-    if ([self.dataSource respondsToSelector:@selector(focusView:titleForPageAtIndex:)]) {
-        _titleLabel.text = [self.dataSource focusView:self titleForPageAtIndex:currentPage];
-    }
+    _titleLabel.text = [self.dataSource focusView:self titleForPageAtIndex:currentPage];
     
     if (showPageIndicator) {
         _pageControl.currentPage = currentPage;
