@@ -25,5 +25,7 @@
 #import "ThirdViewController.h"
 #import "FouthViewController.h"
 #import <RDVTabBarItem.h>
+#import <CoreData+MagicalRecord.h>
+#import "HistoryModel.h"
 
 #endif

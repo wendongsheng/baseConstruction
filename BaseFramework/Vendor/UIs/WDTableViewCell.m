@@ -18,6 +18,7 @@
 
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier{
     if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
+        self.backgroundColor = [UIColor orangeColor];
         self.textField = [[UITextField alloc] initWithFrame:CGRectMake(10, 10, SCREEN_WIDTH-2*10, self.frame.size.height-2*10)];
         self.textField.placeholder = @"这是文本框";
         self.textField.borderStyle = UITextBorderStyleRoundedRect;

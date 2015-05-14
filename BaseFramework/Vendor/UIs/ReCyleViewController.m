@@ -22,8 +22,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [self randomColor];
-    self.cycleView = [[UIView alloc] initWithFrame:CGRectMake(0, 100, SCREEN_WIDTH, 100)];
-    _cycleView.backgroundColor = YELLOW_COLOR;
+    self.cycleView = [[UIView alloc] initWithFrame:CGRectMake(0, 64, SCREEN_WIDTH, 100)];
     [self.view addSubview:_cycleView];
     
     [self createCycleView];
@@ -45,7 +44,7 @@
 
 - (void)createCycleView{
     // focus view
-    _focusView = [[EWFocusView alloc] initWithFrame:_cycleView.bounds showPageIndicator:YES];
+    _focusView = [[EWFocusView alloc] initWithFrame:CGRectMake(0, 0, _cycleView.frame.size.width, _cycleView.frame.size.height) showPageIndicator:YES];
     _focusView.delegate = self;
     _focusView.dataSource = self;
     _focusView.timeInterval = 3;
@@ -57,12 +56,7 @@
 - (UIView *)focusView:(EWFocusView *)focusView pageAtIndex:(NSInteger)index
 {
     UIImageView *imageView = [[UIImageView alloc] initWithFrame:_focusView.bounds];
-//    if (self.picData.count > 0 && self.picData.count>index) {
-//        [imageView sd_setImageWithURL:[NSURL URLWithString:[_picData[index] pic]]];
-//    }
-//    imageView.contentMode = UIViewContentModeScaleAspectFill;
     imageView.image = ImageNamed(@"cycleImage");
-    imageView.backgroundColor = [self randomColor];
     return imageView;
 }
 

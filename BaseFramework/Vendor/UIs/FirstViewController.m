@@ -8,6 +8,7 @@
 
 #import "FirstViewController.h"
 #import "ViewController.h"
+#import "BaseUsedViewController.h"
 
 @interface FirstViewController ()
 
@@ -24,7 +25,7 @@
     UIButton *button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     button.backgroundColor = WHITE_COLOR;
     button.frame = CGRectMake(10, 200, SCREEN_WIDTH-2*10, 30);
-    [button setTitle:@"点击" forState:UIControlStateNormal];
+    [button setTitle:@"IQKeyboardManager的简单使用" forState:UIControlStateNormal];
     [button addTarget:self action:@selector(handleButton) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button];
     
@@ -36,7 +37,7 @@
 }
 
 - (void)handleButton{
-    ViewController *VC = [[ViewController alloc] init];
+    BaseUsedViewController *VC = [[BaseUsedViewController alloc] init];
     [self.rdv_tabBarController setTabBarHidden:YES animated:YES];
     [self.navigationController pushViewController:VC animated:YES];
 }

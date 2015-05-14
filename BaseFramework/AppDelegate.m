@@ -27,7 +27,14 @@
     //设置键盘管理
     [self settingKeyboardManager];
     
+    //初始化coreData
+    [self setupCoreData];
+    
     return YES;
+}
+
+- (void)setupCoreData{
+    [MagicalRecord setupCoreDataStackWithStoreNamed:@"baseFramework"];
 }
 
 - (void)settingHomeViewController{
@@ -44,7 +51,7 @@
     tabBarController.viewControllers = @[firstNC,secondNC,thirdNC,fouthNC];
     self.window.rootViewController = tabBarController;
     
-    NSArray *titleArray = @[@"Home",@"Search",@"Friend",@"Message"];
+    NSArray *titleArray = @[@"Home",@"Search",@"custom",@"custom"];
     //设置tabBar
     for (int i = 0; i < tabBarController.tabBar.items.count; i++) {
         RDVTabBarItem *item = tabBarController.tabBar.items[i];
@@ -121,6 +128,7 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    [MagicalRecord cleanUp];
 }
 
 @end

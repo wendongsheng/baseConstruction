@@ -20,9 +20,10 @@
     // Do any additional setup after loading the view from its nib.
     self.view.backgroundColor = [UIColor colorWithRed:arc4random()%256/255.0 green:arc4random()%256/255.0 blue:arc4random()%256/255.0 alpha:1];
     
-    self.rdv_tabBarController.tabBarHidden = YES;
     self.title = @"练习键盘遮挡问题";
     self.automaticallyAdjustsScrollViewInsets = NO;
+    
+    
     UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT)];
     scrollView.backgroundColor = CLEAR_COLOR;
     [self.view addSubview:scrollView];

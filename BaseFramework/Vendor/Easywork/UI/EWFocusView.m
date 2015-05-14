@@ -164,7 +164,7 @@
         view.userInteractionEnabled = YES;
         UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTap:)];
         [view addGestureRecognizer:tap];
-        view.frame = CGRectOffset(view.frame, view.frame.size.width*i, 0);
+        view.frame = CGRectOffset(self.frame, view.frame.size.width*i, 0);
         [_scrollView addSubview:view];
     }
     

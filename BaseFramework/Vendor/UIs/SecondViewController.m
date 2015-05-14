@@ -7,7 +7,7 @@
 //
 
 #import "SecondViewController.h"
-#import "ReCyleViewController.h"
+#import "MagicalRecordUsed.h"
 
 @interface SecondViewController ()
 
@@ -23,7 +23,7 @@
     UIButton *button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     button.backgroundColor = WHITE_COLOR;
     button.frame = CGRectMake(10, 200, SCREEN_WIDTH-2*10, 30);
-    [button setTitle:@"点进去可以看轮播图哦" forState:UIControlStateNormal];
+    [button setTitle:@"RecordMagical的使用" forState:UIControlStateNormal];
     [button addTarget:self action:@selector(handleButton) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button];
 }
@@ -34,9 +34,9 @@
 }
 
 - (void)handleButton{
-    ReCyleViewController *VC = [[ReCyleViewController alloc] init];
+    MagicalRecordUsed *vc = [[MagicalRecordUsed alloc] init];
     [self.rdv_tabBarController setTabBarHidden:YES animated:YES];
-    [self.navigationController pushViewController:VC animated:YES];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

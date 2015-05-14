@@ -17,6 +17,10 @@
 		783534AD1ADD1E6A001E82AC /* ReCyleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 783534AC1ADD1E6A001E82AC /* ReCyleViewController.m */; };
 		783B3ED91ACBDDF5006BA9A8 /* UIFont+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 783B3ED81ACBDDF5006BA9A8 /* UIFont+Extension.m */; };
 		783B3EDC1ACBE1EE006BA9A8 /* UIView+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 783B3EDB1ACBE1EE006BA9A8 /* UIView+Helper.m */; };
+		7863248B1B02E9D500BE48C4 /* MagicalRecordUsed.m in Sources */ = {isa = PBXBuildFile; fileRef = 7863248A1B02E9D500BE48C4 /* MagicalRecordUsed.m */; };
+		7863248E1B02F58200BE48C4 /* HistoryModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7863248C1B02F58200BE48C4 /* HistoryModel.xcdatamodeld */; };
+		786324911B02F5D400BE48C4 /* HistoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 786324901B02F5D400BE48C4 /* HistoryModel.m */; };
+		786324941B036B3100BE48C4 /* BaseUsedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 786324931B036B3100BE48C4 /* BaseUsedViewController.m */; };
 		7866807D1ACA4CAC0082348B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7866807C1ACA4CAC0082348B /* main.m */; };
 		786680801ACA4CAC0082348B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7866807F1ACA4CAC0082348B /* AppDelegate.m */; };
 		786680881ACA4CAC0082348B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 786680871ACA4CAC0082348B /* Images.xcassets */; };
@@ -84,6 +88,13 @@
 		783B3ED81ACBDDF5006BA9A8 /* UIFont+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Extension.m"; sourceTree = "<group>"; };
 		783B3EDA1ACBE1EE006BA9A8 /* UIView+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Helper.h"; sourceTree = "<group>"; };
 		783B3EDB1ACBE1EE006BA9A8 /* UIView+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Helper.m"; sourceTree = "<group>"; };
+		786324891B02E9D500BE48C4 /* MagicalRecordUsed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicalRecordUsed.h; sourceTree = "<group>"; };
+		7863248A1B02E9D500BE48C4 /* MagicalRecordUsed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagicalRecordUsed.m; sourceTree = "<group>"; };
+		7863248D1B02F58200BE48C4 /* HistoryModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HistoryModel.xcdatamodel; sourceTree = "<group>"; };
+		7863248F1B02F5D400BE48C4 /* HistoryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryModel.h; sourceTree = "<group>"; };
+		786324901B02F5D400BE48C4 /* HistoryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryModel.m; sourceTree = "<group>"; };
+		786324921B036B3100BE48C4 /* BaseUsedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseUsedViewController.h; sourceTree = "<group>"; };
+		786324931B036B3100BE48C4 /* BaseUsedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseUsedViewController.m; sourceTree = "<group>"; };
 		786680771ACA4CAC0082348B /* BaseFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7866807B1ACA4CAC0082348B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7866807C1ACA4CAC0082348B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -216,6 +227,8 @@
 			children = (
 				783534901ADD1195001E82AC /* FirstViewController.h */,
 				783534911ADD1195001E82AC /* FirstViewController.m */,
+				786324921B036B3100BE48C4 /* BaseUsedViewController.h */,
+				786324931B036B3100BE48C4 /* BaseUsedViewController.m */,
 				7835349C1ADD1215001E82AC /* ViewController.h */,
 				7835349D1ADD1215001E82AC /* ViewController.m */,
 				783534A11ADD127C001E82AC /* WDTableViewController.h */,
@@ -231,6 +244,8 @@
 			children = (
 				783534941ADD1195001E82AC /* SecondViewController.h */,
 				783534951ADD1195001E82AC /* SecondViewController.m */,
+				786324891B02E9D500BE48C4 /* MagicalRecordUsed.h */,
+				7863248A1B02E9D500BE48C4 /* MagicalRecordUsed.m */,
 				783534AB1ADD1E6A001E82AC /* ReCyleViewController.h */,
 				783534AC1ADD1E6A001E82AC /* ReCyleViewController.m */,
 				786F9E091AEF8D6F0043252A /* cycleImage.png */,
@@ -302,6 +317,9 @@
 				7866807B1ACA4CAC0082348B /* Info.plist */,
 				7866807C1ACA4CAC0082348B /* main.m */,
 				786680A31ACA4FB20082348B /* BaseFramework.pch */,
+				7863248C1B02F58200BE48C4 /* HistoryModel.xcdatamodeld */,
+				7863248F1B02F5D400BE48C4 /* HistoryModel.h */,
+				786324901B02F5D400BE48C4 /* HistoryModel.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -627,6 +645,7 @@
 				788618B91ADCB54F00092B5B /* BaseNavigationController.m in Sources */,
 				7880344F1ACBC6C30033CE24 /* TQRichTextBaseRun.m in Sources */,
 				786680801ACA4CAC0082348B /* AppDelegate.m in Sources */,
+				786324941B036B3100BE48C4 /* BaseUsedViewController.m in Sources */,
 				788034261ACBC4580033CE24 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
 				786A7B1E1ACCDF9B00FDCFA7 /* UINavigationController+Rotate.m in Sources */,
 				7880343B1ACBC4FC0033CE24 /* LYPhotoItem.m in Sources */,
@@ -647,10 +666,12 @@
 				783B3EDC1ACBE1EE006BA9A8 /* UIView+Helper.m in Sources */,
 				7866807D1ACA4CAC0082348B /* main.m in Sources */,
 				788034241ACBC4580033CE24 /* TPKeyboardAvoidingScrollView.m in Sources */,
+				7863248B1B02E9D500BE48C4 /* MagicalRecordUsed.m in Sources */,
 				786A7B1B1ACCDF0C00FDCFA7 /* UITabBarController+Rotate.m in Sources */,
 				7880345D1ACBC8550033CE24 /* NSJSONSerialization+Extension.m in Sources */,
 				7835349B1ADD1195001E82AC /* ThirdViewController.m in Sources */,
 				783534A61ADD12D8001E82AC /* WDTableViewCell.m in Sources */,
+				7863248E1B02F58200BE48C4 /* HistoryModel.xcdatamodeld in Sources */,
 				787588941ACE2E3C0083D6F0 /* EWTextField.m in Sources */,
 				7835349A1ADD1195001E82AC /* SecondViewController.m in Sources */,
 				7880343A1ACBC4FC0033CE24 /* LYPhotoCell.m in Sources */,
@@ -663,6 +684,7 @@
 				786A7B151ACCDB1100FDCFA7 /* UIButton+Extension.m in Sources */,
 				788034181ACBC2FF0033CE24 /* NSObject+MJIvar.m in Sources */,
 				786B8A571ADDFB800025211B /* TestTwoVC.m in Sources */,
+				786324911B02F5D400BE48C4 /* HistoryModel.m in Sources */,
 				7880343C1ACBC4FC0033CE24 /* LYPhotosViewController.m in Sources */,
 				783B3ED91ACBDDF5006BA9A8 /* UIFont+Extension.m in Sources */,
 				788034601ACBCD920033CE24 /* NSString+Extension.m in Sources */,
@@ -800,6 +822,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7863248C1B02F58200BE48C4 /* HistoryModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7863248D1B02F58200BE48C4 /* HistoryModel.xcdatamodel */,
+			);
+			currentVersion = 7863248D1B02F58200BE48C4 /* HistoryModel.xcdatamodel */;
+			path = HistoryModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 7866806F1ACA4CAC0082348B /* Project object */;
 }
