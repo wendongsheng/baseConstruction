@@ -17,6 +17,7 @@
 		783534AD1ADD1E6A001E82AC /* ReCyleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 783534AC1ADD1E6A001E82AC /* ReCyleViewController.m */; };
 		783B3ED91ACBDDF5006BA9A8 /* UIFont+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 783B3ED81ACBDDF5006BA9A8 /* UIFont+Extension.m */; };
 		783B3EDC1ACBE1EE006BA9A8 /* UIView+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 783B3EDB1ACBE1EE006BA9A8 /* UIView+Helper.m */; };
+		78565F961B06035D00329056 /* InsetsLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 78565F951B06035D00329056 /* InsetsLabel.m */; };
 		7863248B1B02E9D500BE48C4 /* MagicalRecordUsed.m in Sources */ = {isa = PBXBuildFile; fileRef = 7863248A1B02E9D500BE48C4 /* MagicalRecordUsed.m */; };
 		7863248E1B02F58200BE48C4 /* HistoryModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7863248C1B02F58200BE48C4 /* HistoryModel.xcdatamodeld */; };
 		786324911B02F5D400BE48C4 /* HistoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 786324901B02F5D400BE48C4 /* HistoryModel.m */; };
@@ -88,6 +89,8 @@
 		783B3ED81ACBDDF5006BA9A8 /* UIFont+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Extension.m"; sourceTree = "<group>"; };
 		783B3EDA1ACBE1EE006BA9A8 /* UIView+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Helper.h"; sourceTree = "<group>"; };
 		783B3EDB1ACBE1EE006BA9A8 /* UIView+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Helper.m"; sourceTree = "<group>"; };
+		78565F941B06035D00329056 /* InsetsLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsetsLabel.h; sourceTree = "<group>"; };
+		78565F951B06035D00329056 /* InsetsLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsetsLabel.m; sourceTree = "<group>"; };
 		786324891B02E9D500BE48C4 /* MagicalRecordUsed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicalRecordUsed.h; sourceTree = "<group>"; };
 		7863248A1B02E9D500BE48C4 /* MagicalRecordUsed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagicalRecordUsed.m; sourceTree = "<group>"; };
 		7863248D1B02F58200BE48C4 /* HistoryModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HistoryModel.xcdatamodel; sourceTree = "<group>"; };
@@ -517,6 +520,8 @@
 				787588931ACE2E3C0083D6F0 /* EWTextField.m */,
 				786F9E0B1AEF94A40043252A /* EWFocusView.h */,
 				786F9E0C1AEF94A40043252A /* EWFocusView.m */,
+				78565F941B06035D00329056 /* InsetsLabel.h */,
+				78565F951B06035D00329056 /* InsetsLabel.m */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -647,6 +652,7 @@
 				786680801ACA4CAC0082348B /* AppDelegate.m in Sources */,
 				786324941B036B3100BE48C4 /* BaseUsedViewController.m in Sources */,
 				788034261ACBC4580033CE24 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				78565F961B06035D00329056 /* InsetsLabel.m in Sources */,
 				786A7B1E1ACCDF9B00FDCFA7 /* UINavigationController+Rotate.m in Sources */,
 				7880343B1ACBC4FC0033CE24 /* LYPhotoItem.m in Sources */,
 				788034131ACBC2FF0033CE24 /* MJConst.m in Sources */,

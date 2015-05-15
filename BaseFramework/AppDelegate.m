@@ -51,7 +51,7 @@
     tabBarController.viewControllers = @[firstNC,secondNC,thirdNC,fouthNC];
     self.window.rootViewController = tabBarController;
     
-    NSArray *titleArray = @[@"Home",@"Search",@"custom",@"custom"];
+    NSArray *titleArray = @[@"First",@"Second",@"Third",@"Fouth"];
     //设置tabBar
     for (int i = 0; i < tabBarController.tabBar.items.count; i++) {
         RDVTabBarItem *item = tabBarController.tabBar.items[i];
@@ -67,7 +67,7 @@
     [[IQKeyboardManager sharedManager] setEnable:YES];
     
     //设置键盘和textfield的距离
-    [[IQKeyboardManager sharedManager] setKeyboardDistanceFromTextField:10];
+    [[IQKeyboardManager sharedManager] setKeyboardDistanceFromTextField:20];
     
     /**
      *  设置是否显示底部的黑框
@@ -105,7 +105,7 @@
     
     [[IQKeyboardManager sharedManager] setShouldPlayInputClicks:YES];
     
-    [[IQKeyboardManager sharedManager] setShouldAdoptDefaultKeyboardAnimation:YES];
+    [[IQKeyboardManager sharedManager] setShouldAdoptDefaultKeyboardAnimation:NO];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

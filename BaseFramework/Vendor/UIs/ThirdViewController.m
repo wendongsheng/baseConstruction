@@ -19,12 +19,12 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor colorWithRed:arc4random()%256/255.0 green:arc4random()%256/255.0 blue:arc4random()%256/255.0 alpha:1];
-    UIButton *button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    button.backgroundColor = WHITE_COLOR;
-    button.frame = CGRectMake(10, 200, SCREEN_WIDTH-2*10, 30);
-    [button setTitle:@"测试屏幕旋转问题" forState:UIControlStateNormal];
-    [button addTarget:self action:@selector(handleButton) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:button];
+//    UIButton *button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+//    button.backgroundColor = WHITE_COLOR;
+//    button.frame = CGRectMake(10, 200, SCREEN_WIDTH-2*10, 30);
+//    [button setTitle:@"" forState:UIControlStateNormal];
+//    [button addTarget:self action:@selector(handleButton) forControlEvents:UIControlEventTouchUpInside];
+//    [self.view addSubview:button];
 }
 
 - (void)viewDidAppear:(BOOL)animated{

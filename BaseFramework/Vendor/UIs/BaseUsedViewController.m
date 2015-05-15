@@ -28,6 +28,7 @@
 
 - (void)setupViews{
     UITextField *name = [[UITextField alloc] initWithFrame:CGRectMake(50, SCREEN_HEIGHT/2-30-10, SCREEN_WIDTH-2*50, 30)];
+    name.placeholder = @"请输入用户名";
     name.tintColor = GREEN_COLOR;
     name.backgroundColor = WHITE_COLOR;
     name.borderStyle = UITextBorderStyleNone;
@@ -46,6 +47,7 @@
     
     
     UITextField *password = [[UITextField alloc] initWithFrame:CGRectMake(50, SCREEN_HEIGHT/2+10, SCREEN_WIDTH-2*50, 30)];
+    password.placeholder = @"请输入密码";
     password.tintColor = GREEN_COLOR;
     password.backgroundColor = WHITE_COLOR;
     password.borderStyle = UITextBorderStyleNone;
@@ -62,13 +64,29 @@
     passwordLabel.textAlignment = NSTextAlignmentCenter;
     password.leftView = passwordLabel;
     
+    UITextField *buttom = [[UITextField alloc] initWithFrame:CGRectMake(50, SCREEN_HEIGHT-30, SCREEN_WIDTH-2*50, 30)];
+//    buttom.placeholder = @"测试"
+    buttom.tintColor = GREEN_COLOR;
+    buttom.backgroundColor = WHITE_COLOR;
+    buttom.borderStyle = UITextBorderStyleNone;
+    buttom.layer.borderColor = LIGHTGRAY_COLOR.CGColor;
+    buttom.layer.borderWidth = 1;
+    buttom.layer.cornerRadius = 7;
+    buttom.clearButtonMode = UITextFieldViewModeWhileEditing;
+    [self.view addSubview:buttom];
+    
     
     UIButton *button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    button.backgroundColor = WHITE_COLOR;
-    button.frame = CGRectMake(10, SCREEN_HEIGHT-50, SCREEN_WIDTH-2*10, 30);
+    button.layer.cornerRadius = 5.0;
+    button.layer.masksToBounds = YES;
+    button.frame = CGRectMake(0, 0, 50, 25);
     [button setTitle:@"NEXT" forState:UIControlStateNormal];
     [button addTarget:self action:@selector(handleButton) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button];
+    
+    UIBarButtonItem *rightItem = [[UIBarButtonItem alloc] initWithCustomView:button];
+    
+    self.navigationItem.rightBarButtonItem = rightItem;
 }
 
 - (void)didReceiveMemoryWarning {
