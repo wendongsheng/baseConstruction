@@ -36,6 +36,7 @@
 		786F9E0A1AEF8D6F0043252A /* cycleImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 786F9E091AEF8D6F0043252A /* cycleImage.png */; };
 		786F9E0D1AEF94A40043252A /* EWFocusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 786F9E0C1AEF94A40043252A /* EWFocusView.m */; };
 		787588941ACE2E3C0083D6F0 /* EWTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 787588931ACE2E3C0083D6F0 /* EWTextField.m */; };
+		787899D51B130F00009D4236 /* EWTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 787899D41B130F00009D4236 /* EWTextView.m */; };
 		788034131ACBC2FF0033CE24 /* MJConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 788034051ACBC2FF0033CE24 /* MJConst.m */; };
 		788034141ACBC2FF0033CE24 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 788034081ACBC2FF0033CE24 /* MJFoundation.m */; };
 		788034151ACBC2FF0033CE24 /* MJIvar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7880340A1ACBC2FF0033CE24 /* MJIvar.m */; };
@@ -131,6 +132,8 @@
 		787588921ACE2E3C0083D6F0 /* EWTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWTextField.h; sourceTree = "<group>"; };
 		787588931ACE2E3C0083D6F0 /* EWTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWTextField.m; sourceTree = "<group>"; };
 		787588A21ACE644E0083D6F0 /* EWCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWCommon.h; sourceTree = "<group>"; };
+		787899D31B130F00009D4236 /* EWTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWTextView.h; sourceTree = "<group>"; };
+		787899D41B130F00009D4236 /* EWTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWTextView.m; sourceTree = "<group>"; };
 		788034041ACBC2FF0033CE24 /* MJConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJConst.h; sourceTree = "<group>"; };
 		788034051ACBC2FF0033CE24 /* MJConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJConst.m; sourceTree = "<group>"; };
 		788034061ACBC2FF0033CE24 /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
@@ -481,6 +484,8 @@
 				788034551ACBC7570033CE24 /* EasyWork.h */,
 				788034581ACBC7B50033CE24 /* Category */,
 				788034591ACBC7B50033CE24 /* UI */,
+				787899D31B130F00009D4236 /* EWTextView.h */,
+				787899D41B130F00009D4236 /* EWTextView.m */,
 				7880345A1ACBC7B50033CE24 /* Utils */,
 			);
 			path = Easywork;
@@ -654,6 +659,7 @@
 				788034261ACBC4580033CE24 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
 				78565F961B06035D00329056 /* InsetsLabel.m in Sources */,
 				786A7B1E1ACCDF9B00FDCFA7 /* UINavigationController+Rotate.m in Sources */,
+				787899D51B130F00009D4236 /* EWTextView.m in Sources */,
 				7880343B1ACBC4FC0033CE24 /* LYPhotoItem.m in Sources */,
 				788034131ACBC2FF0033CE24 /* MJConst.m in Sources */,
 				788034521ACBC6C30033CE24 /* TQRichTextURLRun.m in Sources */,
